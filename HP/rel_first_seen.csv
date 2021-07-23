@@ -1,0 +1,407 @@
+source,target,value
+Petunia Dursley,Vernon Dursley,34
+Dudley Dursley,Vernon Dursley,29
+Dudley Dursley,Petunia Dursley,31
+Harry Potter,Vernon Dursley,38
+Harry Potter,Petunia Dursley,31
+Dudley Dursley,Jim McGuffin,2101
+Jim McGuffin,Ted,2123
+Albus Dumbledore,Poppy Pomfrey,4281
+James Potter I,Lily J. Potter,2617
+Albus Dumbledore,Lily J. Potter,4475
+Albus Dumbledore,James Potter I,4475
+Albus Dumbledore,Harry Potter,3
+Albus Dumbledore,Rubeus Hagrid,754
+Harry Potter,Rubeus Hagrid,39
+Albus Dumbledore,Sirius Black,5572
+Harry Potter,Lily J. Potter,2628
+Harry Potter,James Potter I,2628
+Rubeus Hagrid,Sirius Black,6111
+Dudley Dursley,Harry Potter,13
+Arabella Figg,Vernon Dursley,1411
+Arabella Figg,Petunia Dursley,400
+Arabella Figg,Dudley Dursley,400
+Arabella Figg,Harry Potter,112
+Harry Potter,Mr Tibbles,1604
+Harry Potter,Snowy,1606
+Harry Potter,Mr Paws,1609
+Harry Potter,Tufty,1612
+Mr Tibbles,Snowy,1606
+Mr Paws,Mr Tibbles,1609
+Mr Tibbles,Tufty,1612
+Mr Paws,Snowy,1609
+Snowy,Tufty,1612
+Mr Paws,Tufty,1612
+Mr Paws,Vernon Dursley,1623
+Tufty,Vernon Dursley,1623
+Petunia Dursley,Yvonne,1701
+Petunia Dursley,Piers Polkiss,1990
+Dudley Dursley,Piers Polkiss,136
+Harry Potter,Piers Polkiss,278
+Boa constrictor at the Zoo,Harry Potter,3601
+Piers Polkiss,Vernon Dursley,271
+Dennis,Dudley Dursley,138
+Dennis,Piers Polkiss,138
+Malcolm,Piers Polkiss,140
+Gordon,Piers Polkiss,143
+Dennis,Malcolm,140
+Dennis,Gordon,143
+Gordon,Malcolm,143
+Dudley Dursley,Malcolm,152
+Dudley Dursley,Gordon,152
+Gordon,Harry Potter,190
+Harry Potter,Owner of the Railview Hotel,3843
+Owner of the Railview Hotel,Vernon Dursley,3855
+Rubeus Hagrid,Vernon Dursley,1124
+Harry Potter,Minerva McGonagall,1923
+Harry Potter,Merlin,2051
+Albus Dumbledore,Vernon Dursley,3211
+Dudley Dursley,Rubeus Hagrid,4228
+Lily J. Potter,Vernon Dursley,4530
+James Potter I,Vernon Dursley,4533
+Lily J. Potter,Rubeus Hagrid,4530
+James Potter I,Rubeus Hagrid,4533
+Petunia Dursley,Rubeus Hagrid,4775
+Gringotts Head Goblin,Harry Potter,80
+Gringotts Head Goblin,Rubeus Hagrid,720
+Albus Dumbledore,Gringotts Head Goblin,756
+Cornelius Fudge,Harry Potter,1232
+Bathilda Bagshot,Miranda Goshawk,1721
+Adalbert Waffling,Miranda Goshawk,1726
+Adalbert Waffling,Bathilda Bagshot,1726
+Bathilda Bagshot,Emeric Switch,1736
+Adalbert Waffling,Emeric Switch,1736
+Emeric Switch,Phyllida Spore,1744
+Arsenius Jigger,Phyllida Spore,1751
+Arsenius Jigger,Newton Scamander,1765
+Newton Scamander,Quentin Trimble,1777
+Rubeus Hagrid,Tom,2349
+Doris Crockford,Harry Potter,2536
+Dedalus Diggle,Harry Potter,2595
+Quirinus Quirrell,Rubeus Hagrid,1463
+Harry Potter,Quirinus Quirrell,9
+Doris Crockford,Rubeus Hagrid,2941
+Quirinus Quirrell,Sirius Black,3063
+Griphook,Rubeus Hagrid,4080
+Griphook,Harry Potter,4104
+Gringotts Head Goblin,Griphook,4846
+Dudley Dursley,Vindictus Viridian,6581
+Garrick Ollivander,Harry Potter,7344
+Garrick Ollivander,Rubeus Hagrid,7664
+Garrick Ollivander,Quirinus Quirrell,8712
+Harry Potter,Hedwig,123
+Hedwig,Petunia Dursley,172
+Harry Potter,Percy Weasley,1432
+Fred Weasley,Harry Potter,547
+Fred Weasley,George Weasley,895
+George Weasley,Harry Potter,895
+Harry Potter,Ronald Weasley,12
+Harry Potter,Neville Longbottom,211
+Percy Weasley,Ronald Weasley,2651
+Fred Weasley,Ronald Weasley,547
+George Weasley,Ronald Weasley,1082
+Fred Weasley,Percy Weasley,3116
+George Weasley,Percy Weasley,3649
+Dudley Dursley,Ronald Weasley,4352
+Ronald Weasley,Rubeus Hagrid,475
+Cornelius Agrippa,Ronald Weasley,5068
+Cornelius Agrippa,Ptolemy,5120
+Cornelius Agrippa,Harry Potter,5123
+Harry Potter,Ptolemy,5123
+Albus Dumbledore,Ronald Weasley,101
+Albus Dumbledore,Gellert Grindelwald,1316
+Albus Dumbledore,Nicolas Flamel,1341
+Harry Potter,Nicolas Flamel,220
+Harry Potter,Hengist of Woodcroft,5488
+Alberic Grunnion,Harry Potter,5492
+Albus Dumbledore,Hengist of Woodcroft,5488
+Alberic Grunnion,Albus Dumbledore,5492
+Albus Dumbledore,Circe,5495
+Alberic Grunnion,Hengist of Woodcroft,5492
+Circe,Hengist of Woodcroft,5495
+Hengist of Woodcroft,Merlin,5500
+Alberic Grunnion,Circe,5495
+Alberic Grunnion,Merlin,5500
+Circe,Merlin,5500
+Circe,Harry Potter,5502
+Cliodna,Merlin,5511
+Cliodna,Harry Potter,5511
+Bertie Bott,Cliodna,5524
+Harry Potter,Hermione Granger,54
+Gringotts Head Goblin,Ronald Weasley,80
+Hermione Granger,Neville Longbottom,166
+Gregory Goyle,Vincent Crabbe,246
+Gregory Goyle,Harry Potter,246
+Draco Malfoy,Harry Potter,10
+Draco Malfoy,Ronald Weasley,12
+Harry Potter,Vincent Crabbe,244
+Ronald Weasley,Vincent Crabbe,737
+Gregory Goyle,Ronald Weasley,737
+Draco Malfoy,Gregory Goyle,512
+Draco Malfoy,Vincent Crabbe,512
+Hermione Granger,Vincent Crabbe,7803
+Hermione Granger,Ronald Weasley,54
+Neville Longbottom,Ronald Weasley,480
+Neville Longbottom,Rubeus Hagrid,752
+Hermione Granger,Rubeus Hagrid,745
+Neville Longbottom,Trevor,3451
+Rubeus Hagrid,Trevor,8777
+Fat Friar,Peeves,851
+Hannah Abbott,Harry Potter,1950
+Fat Friar,Harry Potter,1956
+Harry Potter,Susan Bones,1964
+Fat Friar,Hannah Abbott,1961
+Fat Friar,Susan Bones,1964
+Hannah Abbott,Susan Bones,1964
+Susan Bones,Terry Boot,1989
+Hannah Abbott,Terry Boot,1989
+Mandy Brocklehurst,Terry Boot,2024
+Lavender Brown,Mandy Brocklehurst,2035
+Harry Potter,Millicent Bulstrode,2066
+Millicent Bulstrode,Ronald Weasley,2066
+Dudley Dursley,Justin Finch-Fletchley,2157
+Harry Potter,Justin Finch-Fletchley,2157
+Harry Potter,Seamus Finnigan,235
+Draco Malfoy,Morag MacDougal,2406
+Draco Malfoy,Lily Moon,2465
+Draco Malfoy,Theodore Nott,2468
+Lily Moon,Theodore Nott,2468
+Lily Moon,Pansy Parkinson,2471
+Pansy Parkinson,Theodore Nott,2471
+Padma Patil,Theodore Nott,2481
+Padma Patil,Pansy Parkinson,2481
+Padma Patil,Sally-Anne Perks,2489
+Harry Potter,Sally-Anne Perks,2502
+Dean Thomas,Sirius Black,3031
+Dean Thomas,Ronald Weasley,1422
+Dean Thomas,Harry Potter,294
+Ronald Weasley,Sirius Black,3036
+Harry Potter,Sirius Black,3039
+Lisa Turpin,Ronald Weasley,3046
+Harry Potter,Lisa Turpin,3046
+Blaise Zabini,Ronald Weasley,3122
+Blaise Zabini,Percy Weasley,3122
+Blaise Zabini,Harry Potter,3122
+Harry Potter,Nicholas de Mimsy-Porpington,3541
+Nicholas de Mimsy-Porpington,Seamus Finnigan,3607
+Bloody Baron,Harry Potter,3848
+Algie Longbottom,Enid (disambiguation),4190
+Algie Longbottom,Harry Potter,4276
+Algie Longbottom,Percy Weasley,4281
+Hermione Granger,Percy Weasley,4122
+Albus Dumbledore,Quirinus Quirrell,549
+Percy Weasley,Quirinus Quirrell,4535
+Harry Potter,Severus Snape,49
+Albus Dumbledore,Severus Snape,292
+Albus Dumbledore,Percy Weasley,4714
+Argus Filch,Percy Weasley,4725
+Harry Potter,Peeves,382
+Peeves,Percy Weasley,5403
+Neville Longbottom,Peeves,5555
+Neville Longbottom,Percy Weasley,5555
+Bloody Baron,Peeves,4222
+Bloody Baron,Percy Weasley,5594
+Draco Malfoy,Severus Snape,610
+Argus Filch,Peeves,379
+Argus Filch,Harry Potter,62
+Argus Filch,Ronald Weasley,384
+Quirinus Quirrell,Ronald Weasley,43
+Argus Filch,Quirinus Quirrell,488
+Mrs Norris,Quirinus Quirrell,494
+Argus Filch,Mrs Norris,494
+Emeric the Evil,Uric the Oddball,802
+Emeric the Evil,Filius Flitwick,809
+Filius Flitwick,Uric the Oddball,809
+Cuthbert Binns,Harry Potter,880
+Cuthbert Binns,Hermione Granger,413
+Hermione Granger,Quirinus Quirrell,123
+Quirinus Quirrell,Seamus Finnigan,1193
+Harry Potter,Keeper of the reptile house,1387
+Gringotts Head Goblin,Severus Snape,1384
+Keeper of the reptile house,Severus Snape,1387
+Gringotts Head Goblin,Keeper of the reptile house,1387
+Hedwig,Rubeus Hagrid,1643
+Hedwig,Ronald Weasley,1646
+Filius Flitwick,Severus Snape,1795
+Filius Flitwick,Harry Potter,703
+Severus Snape,Vincent Crabbe,1860
+Gregory Goyle,Severus Snape,1860
+Rubeus Hagrid,Severus Snape,642
+Hermione Granger,Severus Snape,74
+Hermione Granger,Seamus Finnigan,1419
+Seamus Finnigan,Severus Snape,2424
+Neville Longbottom,Severus Snape,745
+Neville Longbottom,Seamus Finnigan,1419
+Ronald Weasley,Severus Snape,110
+Ronald Weasley,Seamus Finnigan,1419
+Fred Weasley,Severus Snape,2981
+George Weasley,Severus Snape,509
+Fred Weasley,Rubeus Hagrid,2990
+George Weasley,Rubeus Hagrid,2990
+Fang,Rubeus Hagrid,3076
+Fang,Harry Potter,3196
+Fang,Ronald Weasley,3316
+Fang,Mrs Norris,3365
+Draco Malfoy,Dudley Dursley,21
+Draco Malfoy,Rubeus Hagrid,513
+Draco Malfoy,Neville Longbottom,274
+Fred Weasley,Rolanda Hooch,935
+George Weasley,Rolanda Hooch,935
+Harry Potter,Rolanda Hooch,1115
+Rolanda Hooch,Ronald Weasley,1148
+Draco Malfoy,Rolanda Hooch,1150
+Neville Longbottom,Rolanda Hooch,1253
+Draco Malfoy,Parvati Patil,1504
+Neville Longbottom,Parvati Patil,1513
+Pansy Parkinson,Parvati Patil,1517
+Neville Longbottom,Pansy Parkinson,1517
+Hermione Granger,Rolanda Hooch,1704
+Fred Weasley,Parvati Patil,2190
+Draco Malfoy,Fred Weasley,2190
+Filius Flitwick,Oliver Wood,2462
+Harry Potter,Oliver Wood,116
+Oliver Wood,Peeves,2555
+Fred Weasley,Oliver Wood,1605
+George Weasley,Oliver Wood,1598
+Fred Weasley,Gregory the Smarmy,3282
+George Weasley,Gregory the Smarmy,3284
+Draco Malfoy,George Weasley,3313
+Dean Thomas,Seamus Finnigan,1422
+Dean Thomas,Neville Longbottom,1422
+Harry Potter,Mrs Norris,3539
+Fat Lady,Harry Potter,2681
+Fat Lady,Hermione Granger,2667
+Mrs Norris,Neville Longbottom,4516
+Harry Potter,Poppy Pomfrey,657
+Neville Longbottom,Poppy Pomfrey,4622
+Bloody Baron,Neville Longbottom,4680
+Argus Filch,Neville Longbottom,2103
+Draco Malfoy,Hermione Granger,1889
+Argus Filch,Draco Malfoy,2111
+Argus Filch,Hermione Granger,2657
+Hermione Granger,Peeves,4090
+Filius Flitwick,Ronald Weasley,681
+Draco Malfoy,Filius Flitwick,684
+Filius Flitwick,Neville Longbottom,2566
+Filius Flitwick,Seamus Finnigan,2588
+Filius Flitwick,Hermione Granger,2947
+Harry Potter,Parvati Patil,3110
+Harry Potter,Lavender Brown,3116
+Parvati Patil,Ronald Weasley,3110
+Lavender Brown,Ronald Weasley,3116
+Hermione Granger,Parvati Patil,3113
+Lavender Brown,Parvati Patil,3116
+Hermione Granger,Lavender Brown,3116
+Peeves,Ronald Weasley,3423
+Percy Weasley,Severus Snape,3586
+Bloody Baron,Ronald Weasley,4024
+Bloody Baron,Hermione Granger,4048
+Fat Lady,Ronald Weasley,5471
+Argus Filch,Severus Snape,853
+Albus Dumbledore,Hermione Granger,111
+Dean Thomas,Hermione Granger,1422
+Angelina Johnson,Oliver Wood,1554
+Marcus Flint,Rolanda Hooch,1784
+Harry Potter,Marcus Flint,1791
+Angelina Johnson,Rolanda Hooch,1903
+Fred Weasley,Lee Jordan,1929
+Alicia Spinnet,Rolanda Hooch,1961
+Alicia Spinnet,Oliver Wood,1968
+Angelina Johnson,Marcus Flint,1994
+Katie Bell,Oliver Wood,2038
+Katie Bell,Marcus Flint,2047
+Angelina Johnson,Miles Bletchley,2164
+Angelina Johnson,Harry Potter,2380
+Lee Jordan,Marcus Flint,2492
+Adrian Pucey,Lee Jordan,2499
+Adrian Pucey,Katie Bell,2509
+Adrian Pucey,Harry Potter,2559
+Harry Potter,Terence Higgs,2580
+Dean Thomas,Rubeus Hagrid,2806
+Dean Thomas,Marcus Flint,2823
+Harry Potter,Lee Jordan,2832
+Alicia Spinnet,Marcus Flint,3139
+Alicia Spinnet,Katie Bell,3142
+Katie Bell,Lee Jordan,3156
+Marcus Flint,Seamus Finnigan,3343
+Rubeus Hagrid,Seamus Finnigan,3352
+Marcus Flint,Severus Snape,3613
+Quirinus Quirrell,Severus Snape,56
+Fluffy,Rubeus Hagrid,666
+Fluffy,Harry Potter,658
+Nicolas Flamel,Rubeus Hagrid,552
+Filius Flitwick,Rubeus Hagrid,835
+Hermione Granger,Nicolas Flamel,1109
+Harry Potter,Irma Pince,1470
+Hermione Granger,Irma Pince,1531
+Irma Pince,Ronald Weasley,1531
+Irma Pince,Nicolas Flamel,1539
+Nicolas Flamel,Ronald Weasley,216
+Filius Flitwick,Percy Weasley,3409
+Percy Weasley,Rubeus Hagrid,3425
+Mrs Norris,Ronald Weasley,4054
+Mrs Norris,Severus Snape,6510
+Argus Filch,Nicolas Flamel,174
+Oliver Wood,Severus Snape,585
+Draco Malfoy,Sorting Hat,1149
+Harry Potter,Sorting Hat,1149
+Albus Dumbledore,Neville Longbottom,754
+Harry Potter,Perenelle Flamel,1741
+Perenelle Flamel,Ronald Weasley,1741
+Albus Dumbledore,Perenelle Flamel,1755
+Gringotts Head Goblin,Perenelle Flamel,1797
+Albus Dumbledore,Fred Weasley,2456
+George Weasley,Hermione Granger,2661
+Fred Weasley,Hermione Granger,2661
+Neville Longbottom,Vincent Crabbe,2808
+Gregory Goyle,Neville Longbottom,2811
+Fluffy,Severus Snape,74
+Fluffy,Quirinus Quirrell,1586
+Fluffy,Ronald Weasley,68
+Fluffy,Hermione Granger,68
+Fluffy,Pomona Sprout,1443
+Pomona Sprout,Rubeus Hagrid,1443
+Filius Flitwick,Pomona Sprout,1446
+Albus Dumbledore,Draco Malfoy,2903
+Poppy Pomfrey,Ronald Weasley,3500
+Draco Malfoy,Poppy Pomfrey,3594
+Hermione Granger,Poppy Pomfrey,646
+Draco Malfoy,Fang,3245
+Peeves,Rubeus Hagrid,4090
+Argus Filch,Rubeus Hagrid,2402
+Argus Filch,Fang,2586
+Fang,Hermione Granger,3404
+Fang,Neville Longbottom,3404
+Harry Potter,Ronan,3835
+Hermione Granger,Ronan,3835
+Ronan,Rubeus Hagrid,3839
+Argus Filch,Ronan,3847
+Bane,Ronan,4250
+Bane,Rubeus Hagrid,4254
+Argus Filch,Bane,4315
+Bane,Harry Potter,4381
+Bane,Hermione Granger,4381
+Firenze,Ronan,5580
+Bane,Firenze,1643
+Firenze,Harry Potter,5628
+Firenze,Rubeus Hagrid,1637
+Cuthbert Binns,Ronald Weasley,413
+Elfric the Eager,Hermione Granger,493
+Lee Jordan,Ronald Weasley,530
+Albus Dumbledore,Fluffy,886
+Albus Dumbledore,Firenze,1637
+Albus Dumbledore,Bane,1643
+Fat Lady,Severus Snape,2667
+Fluffy,Neville Longbottom,3572
+Albus Dumbledore,Hedwig,4976
+Harry Potter,Pomona Sprout,5471
+Fluffy,Hedwig,8381
+Hedwig,Severus Snape,8395
+Gringotts Head Goblin,Quirinus Quirrell,1011
+Quirinus Quirrell,Unicorn,1872
+Fred Weasley,Poppy Pomfrey,2847
+George Weasley,Poppy Pomfrey,2847
+Nicolas Flamel,Perenelle Flamel,3239
+Albus Dumbledore,Helena Ravenclaw,6503
+Ronald Weasley,Vernon Dursley,7302
+Hermione Granger,Vernon Dursley,7363
