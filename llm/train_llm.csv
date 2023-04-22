@@ -1,0 +1,201 @@
+instruction,output
+Create a Cypher statement to answer the following question:Who directed The Matrix?,MATCH (m:Movie {title: 'The Matrix'})<-[:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:What is the IMDb rating of Pulp Fiction?,MATCH (m:Movie {title: 'Pulp Fiction'}) RETURN {rating: m.imdbRating} AS result
+Create a Cypher statement to answer the following question:List all movies released in 1999,MATCH (m:Movie {year: 1999}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which actors starred in The Shawshank Redemption?,"MATCH (m:Movie {title: 'The Shawshank Redemption'})<-[r:ACTED_IN]-(a:Person) RETURN {actor: a.name, role: r.role} AS result"
+Create a Cypher statement to answer the following question:Find all movies in the Action genre,MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name: 'Action'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who wrote the screenplay for Fight Club?,MATCH (m:Movie {title: 'Fight Club'})<-[:WROTE]-(w:Person) RETURN {writer: w.name} AS result
+Create a Cypher statement to answer the following question:List all movies produced by Steven Spielberg,MATCH (p:Person {name: 'Steven Spielberg'})-[:PRODUCED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which movies did Keanu Reeves act in?,"MATCH (a:Person {name: 'Keanu Reeves'})-[:ACTED_IN]->(m:Movie) RETURN {movie: m.title, role: r.role} AS result"
+Create a Cypher statement to answer the following question:What is the runtime of Schindler's List?,"MATCH (m:Movie {title: ""Schindler's List""}) RETURN {runtime: m.runtime} AS result"
+Create a Cypher statement to answer the following question:List all movies with a rating above 8,"MATCH (m:Movie) WHERE m.imdbRating > 8 RETURN {movie: m.title, rating: m.imdbRating} AS result"
+Create a Cypher statement to answer the following question:Who directed The Matrix?,MATCH (m:Movie {title:'The Matrix'})<-[:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:What is the IMDb rating of Fight Club?,MATCH (m:Movie {title: 'Fight Club'}) RETURN {rating: m.imdbRating} AS result
+Create a Cypher statement to answer the following question:What are the genres of Inception?,MATCH (m:Movie {title:'Inception'})-[:IN_GENRE]->(g:Genre) RETURN {genre: g.name} AS result
+Create a Cypher statement to answer the following question:Who acted in The Godfather?,"MATCH (m:Movie {title:'The Godfather'})<-[r:ACTED_IN]-(a:Person) RETURN {actor: a.name, role: r.role} AS result"
+Create a Cypher statement to answer the following question:List movies released in 1994,MATCH (m:Movie {year: 1994}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:List all movies directed by Quentin Tarantino,MATCH (d:Person {name: 'Quentin Tarantino'})-[:DIRECTED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which actors starred in Pulp Fiction?,"MATCH (m:Movie {title:'Pulp Fiction'})<-[r:ACTED_IN]-(a:Person) RETURN {actor: a.name, role: r.role} AS result"
+Create a Cypher statement to answer the following question:What are the top 5 highest rated movies?,"MATCH (m:Movie) RETURN {movie: m.title, rating: m.imdbRating} AS result ORDER BY m.imdbRating DESC LIMIT 5"
+Create a Cypher statement to answer the following question:Find all movies in the Sci-Fi genre,MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name:'Sci-Fi'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who wrote the screenplay for The Shawshank Redemption?,MATCH (m:Movie {title:'The Shawshank Redemption'})<-[:WROTE]-(w:Person) RETURN {writer: w.name} AS result
+Create a Cypher statement to answer the following question:Who directed The Matrix?,MATCH (m:Movie {title:'The Matrix'})<-[r:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:What is the average rating of Pulp Fiction?,MATCH (m:Movie {title:'Pulp Fiction'})<-[:RATED]-(u:User) RETURN avg(u.rating) AS average_rating
+Create a Cypher statement to answer the following question:Which movies were released in 2000?,MATCH (m:Movie {year: 2000}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who are the top 5 highest rated actors?,"MATCH (a:Person)-[:ACTED_IN]->(m:Movie) RETURN a.name AS actor, avg(m.imdbRating) as avg_rating ORDER BY avg_rating DESC LIMIT 5"
+Create a Cypher statement to answer the following question:Which movies have Tom Hanks acted in?,MATCH (a:Person {name: 'Tom Hanks'})-[:ACTED_IN]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:List all movies in the Sci-Fi genre,MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name:'Sci-Fi'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find the top 3 longest movies,"MATCH (m:Movie) RETURN {movie: m.title, duration: m.duration} AS result ORDER BY m.duration DESC LIMIT 3"
+Create a Cypher statement to answer the following question:Who wrote the screenplay for Fight Club?,MATCH (m:Movie {title:'Fight Club'})<-[:WROTE]-(w:Person) RETURN {writer: w.name} AS result
+Create a Cypher statement to answer the following question:What are the top 10 highest-grossing movies?,"MATCH (m:Movie) RETURN {movie: m.title, box_office: m.boxOffice} AS result ORDER BY m.boxOffice DESC LIMIT 10"
+Create a Cypher statement to answer the following question:Which actors have worked with Quentin Tarantino?,MATCH (d:Person {name:'Quentin Tarantino'})-[:DIRECTED]->(m:Movie)<-[:ACTED_IN]-(a:Person) RETURN DISTINCT {actor: a.name} AS result
+Create a Cypher statement to answer the following question:Who directed The Matrix?,MATCH (m:Movie {title:'The Matrix'})<-[:DIRECTED]-(d) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:Which movies were released in 1999?,MATCH (m:Movie {year: 1999}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:List all actors in the movie Pulp Fiction,MATCH (m:Movie {title:'Pulp Fiction'})<-[:ACTED_IN]-(a) RETURN {actor: a.name} AS result
+Create a Cypher statement to answer the following question:Find the average rating of the movie Titanic,MATCH (m:Movie {title:'Titanic'})<-[r:RATED]-(u:User) RETURN AVG(r.rating) AS average_rating
+Create a Cypher statement to answer the following question:List all movies in the action genre,MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name:'Action'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who produced the movie Fight Club?,MATCH (m:Movie {title:'Fight Club'})<-[:PRODUCED]-(p) RETURN {producer: p.name} AS result
+Create a Cypher statement to answer the following question:Find movies with a rating higher than 8,"MATCH (m:Movie) WHERE m.imdbRating > 8 RETURN {movie: m.title, rating: m.imdbRating} AS result"
+Create a Cypher statement to answer the following question:List all movies released between 2000 and 2010,"MATCH (m:Movie) WHERE m.year >= 2000 AND m.year <= 2010 RETURN {movie: m.title, year: m.year} AS result"
+Create a Cypher statement to answer the following question:How many movies did Tom Hanks act in?,MATCH (a:Person {name:'Tom Hanks'})-[:ACTED_IN]->(m) RETURN COUNT(m) AS movie_count
+Create a Cypher statement to answer the following question:Find the top 5 highest-grossing movies,"MATCH (m:Movie) RETURN {movie: m.title, revenue: m.boxOffice} AS result ORDER BY m.boxOffice DESC LIMIT 5"
+Create a Cypher statement to answer the following question:What is the genre of The Matrix?,MATCH (m:Movie {title: 'The Matrix'})-[:IN_GENRE]->(g:Genre) RETURN {genre: g.name} AS result
+Create a Cypher statement to answer the following question:Find the director of Pulp Fiction,MATCH (m:Movie {title: 'Pulp Fiction'})<-[:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:List movies released in 1999,MATCH (m:Movie {year: 1999}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which actors starred in The Godfather?,"MATCH (m:Movie {title: 'The Godfather'})<-[r:ACTED_IN]-(a:Person) RETURN {actor: a.name, role: r.role} AS result"
+Create a Cypher statement to answer the following question:Find movies with an IMDb rating above 8.5,"MATCH (m:Movie) WHERE m.imdbRating > 8.5 RETURN {movie: m.title, rating: m.imdbRating} AS result"
+Create a Cypher statement to answer the following question:Who are the top 5 highest rated actors?,"MATCH (a:Person)-[:ACTED_IN]->(m:Movie) WITH a, AVG(m.imdbRating) as avgRating ORDER BY avgRating DESC LIMIT 5 RETURN {actor: a.name, rating: avgRating}"
+Create a Cypher statement to answer the following question:List all movies directed by Quentin Tarantino,MATCH (d:Person {name: 'Quentin Tarantino'})-[:DIRECTED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:What are the top 3 highest-grossing movies?,"MATCH (m:Movie) RETURN {movie: m.title, revenue: m.revenue} AS result ORDER BY m.revenue DESC LIMIT 3"
+Create a Cypher statement to answer the following question:Find all movies with the word 'love' in the title,MATCH (m:Movie) WHERE toLower(m.title) CONTAINS toLower('love') RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who are the actors in the same movie as Tom Cruise?,"MATCH (a:Person)-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(coActor:Person {name: 'Tom Cruise'}) RETURN {actor: a.name, movie: m.title} AS result"
+Create a Cypher statement to answer the following question:List all movies released in 1995,MATCH (m:Movie) WHERE m.year = 1995 RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find the highest-rated action movie,MATCH (m:Movie)-[:IN_GENRE]->(:Genre {name:'Action'}) RETURN {movie: m.title} AS result ORDER BY m.imdbRating DESC LIMIT 1
+Create a Cypher statement to answer the following question:Show me all movies directed by Quentin Tarantino,MATCH (m:Movie)<-[:DIRECTED]-(d:Person {name: 'Quentin Tarantino'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who are the actors in the movie Pulp Fiction?,"MATCH (m:Movie {title: 'Pulp Fiction'})<-[r:ACTED_IN]-(a) RETURN {actor: a.name, role: r.role} AS result"
+Create a Cypher statement to answer the following question:What is the average rating of movies in the drama genre?,MATCH (m:Movie)-[:IN_GENRE]->(:Genre {name:'Drama'}) WITH AVG(m.imdbRating) AS average_rating RETURN {averageRating: average_rating} AS result
+Create a Cypher statement to answer the following question:List all movies with a rating above 8,MATCH (m:Movie) WHERE m.imdbRating > 8 RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find all movies with the word 'love' in the title,MATCH (m:Movie) WHERE toLower(m.title) CONTAINS toLower('love') RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who are the top 5 actors with the most movies?,"MATCH (a:Person)-[:ACTED_IN]->(m:Movie) WITH a, count(m) AS movie_count RETURN {actor: a.name, movies: movie_count} AS result ORDER BY movie_count DESC LIMIT 5"
+Create a Cypher statement to answer the following question:What are the top 3 longest movies?,"MATCH (m:Movie) RETURN {movie: m.title, duration: m.duration} AS result ORDER BY m.duration DESC LIMIT 3"
+Create a Cypher statement to answer the following question:Find all movies with both Tom Hanks and Meg Ryan,MATCH (a:Person {name:'Tom Hanks'})-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(b:Person {name: 'Meg Ryan'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who directed The Matrix?,MATCH (m:Movie {title: 'The Matrix'})<-[:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:Which actors starred in The Godfather?,MATCH (m:Movie {title: 'The Godfather'})<-[:ACTED_IN]-(a:Person) RETURN {actor: a.name} AS result
+Create a Cypher statement to answer the following question:What is the IMDb rating of Pulp Fiction?,MATCH (m:Movie {title: 'Pulp Fiction'}) RETURN {rating: m.imdbRating} AS result
+Create a Cypher statement to answer the following question:List all movies released in 1994,MATCH (m:Movie {year: 1994}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find all action movies with a rating of 8 or higher,"MATCH (m:Movie)-[:IN_GENRE]->(:Genre {name: 'Action'}) WHERE m.imdbRating >= 8 RETURN {movie: m.title, rating: m.imdbRating} AS result"
+Create a Cypher statement to answer the following question:Who wrote the screenplay for The Shawshank Redemption?,MATCH (m:Movie {title: 'The Shawshank Redemption'})<-[:WROTE]-(w:Person) RETURN {writer: w.name} AS result
+Create a Cypher statement to answer the following question:List all movies Tom Hanks acted in,MATCH (p:Person {name: 'Tom Hanks'})-[:ACTED_IN]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which movies were directed by Quentin Tarantino?,MATCH (d:Person {name: 'Quentin Tarantino'})-[:DIRECTED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find all movies in the drama genre released before 2000,"MATCH (m:Movie)-[:IN_GENRE]->(:Genre {name: 'Drama'}) WHERE m.year < 2000 RETURN {movie: m.title, year: m.year} AS result"
+Create a Cypher statement to answer the following question:Who are the top 5 highest rated actors?,"MATCH (a:Person)-[:ACTED_IN]->(m:Movie) WITH a, AVG(m.imdbRating) as avgRating RETURN {actor: a.name, rating: avgRating} AS result ORDER BY avgRating DESC LIMIT 5"
+Create a Cypher statement to answer the following question:What is the release year of The Matrix?,MATCH (m:Movie {title: 'The Matrix'}) RETURN {year: m.year} AS result
+Create a Cypher statement to answer the following question:What are the genres of Fight Club?,MATCH (m:Movie {title: 'Fight Club'})-[:IN_GENRE]->(g:Genre) RETURN {genre: g.name} AS result
+Create a Cypher statement to answer the following question:Who directed Pulp Fiction?,MATCH (m:Movie {title: 'Pulp Fiction'})<-[:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:Which movies were released in 1999?,MATCH (m:Movie {year: 1999}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who are the actors in Inception?,MATCH (m:Movie {title: 'Inception'})<-[:ACTED_IN]-(a:Person) RETURN {actor: a.name} AS result
+Create a Cypher statement to answer the following question:What are the top 5 highest-rated movies?,"MATCH (m:Movie) RETURN {movie: m.title, rating: m.imdbRating} AS result ORDER BY m.imdbRating DESC LIMIT 5"
+Create a Cypher statement to answer the following question:What are the movies directed by Quentin Tarantino?,MATCH (p:Person {name: 'Quentin Tarantino'})-[:DIRECTED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find movies with a rating higher than 8.5,"MATCH (m:Movie) WHERE m.imdbRating > 8.5 RETURN {movie: m.title, rating: m.imdbRating} AS result"
+Create a Cypher statement to answer the following question:List all action movies,MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name: 'Action'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which actors starred in both The Matrix and Fight Club?,"MATCH (a:Person)-[:ACTED_IN]->(m1:Movie {title: 'The Matrix'}), (a)-[:ACTED_IN]->(m2:Movie {title: 'Fight Club'}) RETURN {actor: a.name} AS result"
+Create a Cypher statement to answer the following question:What is the release year of The Matrix?,MATCH (m:Movie {title: 'The Matrix'}) RETURN {year: m.year} AS result
+Create a Cypher statement to answer the following question:Who directed The Godfather?,MATCH (m:Movie {title: 'The Godfather'})<-[:DIRECTED]-(d) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:List all movies with the genre 'Action',MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name: 'Action'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which movies has Keanu Reeves acted in?,MATCH (p:Person {name: 'Keanu Reeves'})-[:ACTED_IN]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find the average rating of the movie Fight Club,MATCH (m:Movie {title: 'Fight Club'})<-[:RATED]-(u:User) RETURN {average_rating: avg(u.rating)} AS result
+Create a Cypher statement to answer the following question:List all actors who have worked with Christopher Nolan,MATCH (a:Person)-[:ACTED_IN]->(m:Movie)<-[:DIRECTED]-(d:Person {name: 'Christopher Nolan'}) RETURN {actor: a.name} AS result
+Create a Cypher statement to answer the following question:Which movies were released in 1999?,MATCH (m:Movie {year: 1999}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who are the top 5 highest-rated actors?,"MATCH (a:Person)-[:ACTED_IN]->(m:Movie) WITH a, avg(m.imdbRating) AS avg_rating ORDER BY avg_rating DESC LIMIT 5 RETURN {actor: a.name, rating: avg_rating} AS result"
+Create a Cypher statement to answer the following question:Find the movies in which Tom Hanks has acted,MATCH (a:Person {name: 'Tom Hanks'})-[:ACTED_IN]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which movies were directed by Steven Spielberg?,MATCH (d:Person {name: 'Steven Spielberg'})-[:DIRECTED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who directed The Matrix?,MATCH (m:Movie {title: 'The Matrix'})<-[:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:Find all movies released in 2005,MATCH (m:Movie {year: 2005}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:List all movies of the actor Tom Cruise,MATCH (a:Person {name: 'Tom Cruise'})-[:ACTED_IN]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which actors starred in the movie Inception?,MATCH (m:Movie {title: 'Inception'})<-[:ACTED_IN]-(a:Person) RETURN {actor: a.name} AS result
+Create a Cypher statement to answer the following question:Which movies has Christopher Nolan directed?,MATCH (d:Person {name: 'Christopher Nolan'})-[:DIRECTED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:What are the top 5 highest-rated movies?,"MATCH (m:Movie) RETURN {movie: m.title, rating: m.imdbRating} AS result ORDER BY m.imdbRating DESC LIMIT 5"
+Create a Cypher statement to answer the following question:Find all movies in the action genre,MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name: 'Action'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:How many movies has Brad Pitt acted in?,MATCH (a:Person {name: 'Brad Pitt'})-[:ACTED_IN]->(m:Movie) RETURN COUNT(m) AS numberOfMovies
+Create a Cypher statement to answer the following question:List all the genres of the movie Interstellar,MATCH (m:Movie {title: 'Interstellar'})-[:IN_GENRE]->(g:Genre) RETURN {genre: g.name} AS result
+Create a Cypher statement to answer the following question:What is the average rating of movies in the sci-fi genre?,MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name: 'Sci-Fi'}) RETURN AVG(m.imdbRating) AS averageRating
+Create a Cypher statement to answer the following question:Who directed The Matrix?,MATCH (m:Movie {title: 'The Matrix'})<-[:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:What is the IMDB rating of Top Gun?,MATCH (m:Movie {title: 'Top Gun'}) RETURN {rating: m.imdbRating} AS result
+Create a Cypher statement to answer the following question:List all movies released in 1995,MATCH (m:Movie {year: 1995}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which actors starred in The Matrix?,MATCH (m:Movie {title: 'The Matrix'})<-[:ACTED_IN]-(a:Person) RETURN {actor: a.name} AS result
+Create a Cypher statement to answer the following question:Find all movies in the action genre,MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name: 'Action'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who wrote the screenplay for The Matrix?,MATCH (m:Movie {title: 'The Matrix'})<-[:WROTE]-(w:Person) RETURN {writer: w.name} AS result
+Create a Cypher statement to answer the following question:List all movies directed by James Cameron,MATCH (d:Person {name: 'James Cameron'})-[:DIRECTED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which actors have worked with Quentin Tarantino?,MATCH (d:Person {name: 'Quentin Tarantino'})-[:DIRECTED]->(m:Movie)<-[:ACTED_IN]-(a:Person) RETURN DISTINCT {actor: a.name} AS result
+Create a Cypher statement to answer the following question:Find the highest rated movies in the drama genre,"MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name: 'Drama'}) RETURN {movie: m.title, rating: m.imdbRating} AS result ORDER BY m.imdbRating DESC LIMIT 5"
+Create a Cypher statement to answer the following question:List all movies that Keanu Reeves acted in,MATCH (a:Person {name: 'Keanu Reeves'})-[:ACTED_IN]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who directed The Matrix?,MATCH (m:Movie {title: 'The Matrix'})<-[r:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:What is the runtime of Top Gun?,MATCH (m:Movie {title: 'Top Gun'}) RETURN {runtime: m.runtime} AS result
+Create a Cypher statement to answer the following question:What are the genres of Copycat?,MATCH (m:Movie {title: 'Copycat'})-[:IN_GENRE]->(g:Genre) RETURN {genre: g.name} AS result
+Create a Cypher statement to answer the following question:Who wrote the screenplay for The Matrix?,MATCH (m:Movie {title: 'The Matrix'})<-[r:WROTE]-(w:Person) RETURN {writer: w.name} AS result
+Create a Cypher statement to answer the following question:List all movies released in 1999,MATCH (m:Movie {year: 1999}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find all movies where Tom Cruise acted,MATCH (a:Person {name: 'Tom Cruise'})-[r:ACTED_IN]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which actors starred in The Matrix?,MATCH (m:Movie {title: 'The Matrix'})<-[:ACTED_IN]-(a:Person) RETURN {actor: a.name} AS result
+Create a Cypher statement to answer the following question:What is the average rating of Top Gun?,MATCH (m:Movie {title: 'Top Gun'}) RETURN {avgRating: m.imdbRating} AS result
+Create a Cypher statement to answer the following question:List all action movies,MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name: 'Action'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which movies have the highest IMDb rating?,"MATCH (m:Movie) RETURN {movie: m.title, rating: m.imdbRating} AS result ORDER BY m.imdbRating DESC LIMIT 5"
+Create a Cypher statement to answer the following question:Find movies directed by Christopher Nolan,MATCH (p:Person {name:'Christopher Nolan'})-[:DIRECTED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:List all movies released in 2005,MATCH (m:Movie {year: 2005}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which actors acted in the movie Inception?,"MATCH (m:Movie {title:'Inception'})<-[r:ACTED_IN]-(a) RETURN {actor: a.name, role: r.role} AS result"
+Create a Cypher statement to answer the following question:What is the rating of the movie Titanic?,MATCH (m:Movie {title:'Titanic'}) RETURN {rating: m.imdbRating} AS result
+Create a Cypher statement to answer the following question:List all movies with a rating greater than 8,"MATCH (m:Movie) WHERE m.imdbRating > 8 RETURN {movie: m.title, rating: m.imdbRating} AS result"
+Create a Cypher statement to answer the following question:Who directed the movie The Dark Knight?,MATCH (p:Person)-[:DIRECTED]->(m:Movie {title:'The Dark Knight'}) RETURN {director: p.name} AS result
+Create a Cypher statement to answer the following question:Find all movies in the Action genre,MATCH (m:Movie)-[:IN_GENRE]->(:Genre {name:'Action'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which movies were released between 1990 and 2000?,"MATCH (m:Movie) WHERE m.year >= 1990 AND m.year <= 2000 RETURN {movie: m.title, year: m.year} AS result"
+Create a Cypher statement to answer the following question:List actors who have worked with Quentin Tarantino,MATCH (p:Person {name:'Quentin Tarantino'})-[:DIRECTED]->(m:Movie)<-[r:ACTED_IN]-(a) RETURN DISTINCT {actor: a.name} AS result
+Create a Cypher statement to answer the following question:Which movies have more than 1000 user ratings?,"MATCH (m:Movie)<-[:RATED]-(u:User) WITH m, count(*) AS ratings WHERE ratings > 1000 RETURN {movie: m.title, ratings: ratings} AS result"
+Create a Cypher statement to answer the following question:What is the genre of The Matrix?,MATCH (m:Movie {title: 'The Matrix'})-[:IN_GENRE]->(g:Genre) RETURN {genre: g.name} AS result
+Create a Cypher statement to answer the following question:Who directed Pulp Fiction?,MATCH (m:Movie {title: 'Pulp Fiction'})<-[:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:Which actors have worked with Quentin Tarantino?,MATCH (p:Person)-[:DIRECTED]->(:Movie)<-[:ACTED_IN]-(a:Person) WHERE p.name = 'Quentin Tarantino' RETURN {actor: a.name} AS result
+Create a Cypher statement to answer the following question:Find movies released in the year 2000,MATCH (m:Movie {year: 2000}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:What are the top 5 highest-rated movies?,"MATCH (m:Movie) RETURN {movie: m.title, rating: m.imdbRating} AS result ORDER BY m.imdbRating DESC LIMIT 5"
+Create a Cypher statement to answer the following question:Who are the actors in The Godfather?,"MATCH (m:Movie {title: 'The Godfather'})<-[:ACTED_IN]-(a:Person) RETURN {actor: a.name, role: a.role} AS result"
+Create a Cypher statement to answer the following question:List all drama movies,MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name: 'Drama'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Has Tom Hanks acted in any thriller movies?,MATCH (a:Person {name: 'Tom Hanks'})-[:ACTED_IN]->(m:Movie)-[:IN_GENRE]->(g:Genre {name: 'Thriller'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find all movies with a rating above 8,"MATCH (m:Movie) WHERE m.imdbRating > 8 RETURN {movie: m.title, rating: m.imdbRating} AS result"
+Create a Cypher statement to answer the following question:List all movies directed by Steven Spielberg,MATCH (d:Person {name: 'Steven Spielberg'})-[:DIRECTED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:What is the director of The Matrix?,MATCH (m:Movie {title: 'The Matrix'})<-[:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:List all movies released in 1995,MATCH (m:Movie {year: 1995}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find all movies with Keanu Reeves,MATCH (a:Person {name: 'Keanu Reeves'})-[:ACTED_IN]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:List actors who worked with Quentin Tarantino,MATCH (d:Person {name: 'Quentin Tarantino'})<-[:DIRECTED]-(m:Movie)<-[:ACTED_IN]-(a:Person) RETURN DISTINCT {actor: a.name} AS result
+Create a Cypher statement to answer the following question:Find top 5 highest rated action movies,"MATCH (m:Movie)-[:IN_GENRE]->(:Genre {name: 'Action'}) RETURN {movie: m.title, rating: m.imdbRating} AS result ORDER BY m.imdbRating DESC LIMIT 5"
+Create a Cypher statement to answer the following question:Who wrote the screenplay for Pulp Fiction?,MATCH (m:Movie {title: 'Pulp Fiction'})<-[:WROTE]-(w:Person) RETURN {writer: w.name} AS result
+Create a Cypher statement to answer the following question:List all movies directed by Christopher Nolan,MATCH (d:Person {name: 'Christopher Nolan'})-[:DIRECTED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:How many movies has Tom Hanks acted in?,MATCH (a:Person {name: 'Tom Hanks'})-[:ACTED_IN]->(m:Movie) RETURN COUNT(m) AS movie_count
+Create a Cypher statement to answer the following question:Find all movies released between 2000 and 2010,"MATCH (m:Movie) WHERE m.year >= 2000 AND m.year <= 2010 RETURN {movie: m.title, year: m.year} AS result"
+Create a Cypher statement to answer the following question:Which actors starred in both Inception and The Dark Knight?,"MATCH (a:Person)-[:ACTED_IN]->(:Movie {title: 'Inception'}), (a)-[:ACTED_IN]->(:Movie {title: 'The Dark Knight'}) RETURN {actor: a.name} AS result"
+Create a Cypher statement to answer the following question:Who directed The Matrix?,MATCH (m:Movie {title: 'The Matrix'})<-[:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:List actors in The Lord of the Rings: The Fellowship of the Ring,"MATCH (m:Movie {title: 'The Lord of the Rings: The Fellowship of the Ring'})<-[r:ACTED_IN]-(a) RETURN {actor: a.name, role: r.role} AS result"
+Create a Cypher statement to answer the following question:Which movies were released in 1999?,MATCH (m:Movie {year: 1999}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find action movies with an IMDb rating above 8,"MATCH (m:Movie)-[:IN_GENRE]->(:Genre {name:'Action'}) WHERE m.imdbRating > 8 RETURN {movie: m.title, rating: m.imdbRating} AS result"
+Create a Cypher statement to answer the following question:Who wrote the screenplay for Fight Club?,MATCH (m:Movie {title: 'Fight Club'})<-[:WROTE]-(w:Person) RETURN {writer: w.name} AS result
+Create a Cypher statement to answer the following question:What are the top 5 highest-grossing movies?,"MATCH (m:Movie) RETURN {movie: m.title, revenue: m.revenue} AS result ORDER BY m.revenue DESC LIMIT 5"
+Create a Cypher statement to answer the following question:List all movies in the Science Fiction genre,MATCH (m:Movie)-[:IN_GENRE]->(:Genre {name:'Science Fiction'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which movies were produced by Warner Bros.?,MATCH (m:Movie)-[:PRODUCED_BY]->(:Company {name: 'Warner Bros.'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:What are the top 3 longest movies?,"MATCH (m:Movie) RETURN {movie: m.title, duration: m.duration} AS result ORDER BY m.duration DESC LIMIT 3"
+Create a Cypher statement to answer the following question:List all movies that have more than 1000 user ratings,"MATCH (m:Movie)<-[:RATED]-(u:User) WITH m, COUNT(u) AS ratings WHERE ratings > 1000 RETURN {movie: m.title, ratings: ratings} AS result"
+Create a Cypher statement to answer the following question:What is the duration of Pulp Fiction?,MATCH (m:Movie {title: 'Pulp Fiction'}) RETURN {duration: m.duration} AS result
+Create a Cypher statement to answer the following question:List actors who appeared in The Godfather movie,"MATCH (m:Movie {title: 'The Godfather'})<-[r:ACTED_IN]-(a:Person) RETURN {actor: a.name, role: r.role} AS result"
+Create a Cypher statement to answer the following question:Who directed The Shawshank Redemption?,MATCH (m:Movie {title: 'The Shawshank Redemption'})<-[:DIRECTED]-(d:Person) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:What is the average rating of the movie Fight Club?,MATCH (m:Movie {title: 'Fight Club'})<-[:RATED]-(u:User) RETURN avg(u.rating) AS averageRating
+Create a Cypher statement to answer the following question:List all movies released in 1995,MATCH (m:Movie {year: 1995}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which movies has Tom Hanks acted in?,MATCH (p:Person {name: 'Tom Hanks'})-[:ACTED_IN]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find all movies in the Drama genre,MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name:'Drama'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which actors starred in both The Matrix and The Matrix Reloaded?,"MATCH (a:Person)-[:ACTED_IN]->(m1:Movie {title: 'The Matrix'}), (a)-[:ACTED_IN]->(m2:Movie {title: 'The Matrix Reloaded'}) RETURN {actor: a.name} AS result"
+Create a Cypher statement to answer the following question:List all movie titles directed by Quentin Tarantino,MATCH (d:Person {name: 'Quentin Tarantino'})-[:DIRECTED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:What are the top 5 highest rated movies?,"MATCH (m:Movie) RETURN {movie: m.title, rating: m.imdbRating} AS result ORDER BY m.imdbRating DESC LIMIT 5"
+Create a Cypher statement to answer the following question:What is the genre of The Matrix?,MATCH (m:Movie {title:'The Matrix'})-[:IN_GENRE]->(g:Genre) RETURN {genre: g.name} AS result
+Create a Cypher statement to answer the following question:Who directed Pulp Fiction?,MATCH (d:Person)-[:DIRECTED]->(m:Movie {title:'Pulp Fiction'}) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:What are the top 5 highest rated movies?,"MATCH (m:Movie) RETURN {movie: m.title, rating: m.imdbRating} AS result ORDER BY m.imdbRating DESC LIMIT 5"
+Create a Cypher statement to answer the following question:Who are the actors in The Shawshank Redemption?,MATCH (a:Person)-[:ACTED_IN]->(m:Movie {title:'The Shawshank Redemption'}) RETURN {actor: a.name} AS result
+Create a Cypher statement to answer the following question:List all movies released in 1994,MATCH (m:Movie {year:1994}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:What are the top 3 action movies?,MATCH (m:Movie)-[:IN_GENRE]->(:Genre {name:'Action'}) RETURN {movie: m.title} AS result ORDER BY m.imdbRating DESC LIMIT 3
+Create a Cypher statement to answer the following question:Who wrote the screenplay for Fight Club?,MATCH (w:Person)-[:WROTE]->(m:Movie {title:'Fight Club'}) RETURN {writer: w.name} AS result
+Create a Cypher statement to answer the following question:What is the average rating of all movies?,MATCH (m:Movie) RETURN AVG(m.imdbRating) AS average_rating
+Create a Cypher statement to answer the following question:Find all movies directed by Quentin Tarantino,MATCH (d:Person {name:'Quentin Tarantino'})-[:DIRECTED]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:List all actors who have worked with Christopher Nolan,MATCH (a:Person)-[:ACTED_IN]->(m:Movie)<-[:DIRECTED]-(d:Person {name:'Christopher Nolan'}) RETURN {actor: a.name} AS result
+Create a Cypher statement to answer the following question:List actors in The Matrix,"MATCH (m:Movie {title:'The Matrix'})<-[r:ACTED_IN]-(a) RETURN {actor: a.name, role: r.role} AS result"
+Create a Cypher statement to answer the following question:Find the director of Pulp Fiction,MATCH (m:Movie {title: 'Pulp Fiction'})<-[:DIRECTED]-(d) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:List all movies released in 1999,MATCH (m:Movie) WHERE m.year = 1999 RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who are the actors in Fight Club?,"MATCH (m:Movie {title:'Fight Club'})<-[r:ACTED_IN]-(a) RETURN {actor: a.name, role: r.role} AS result"
+Create a Cypher statement to answer the following question:What genre is The Godfather?,MATCH (m:Movie {title: 'The Godfather'})-[:IN_GENRE]->(g) RETURN {genre: g.name} AS result
+Create a Cypher statement to answer the following question:List all movies with an IMDb rating above 8,"MATCH (m:Movie) WHERE m.imdbRating > 8 RETURN {movie: m.title, rating: m.imdbRating} AS result"
+Create a Cypher statement to answer the following question:Show the top 5 highest-grossing movies,"MATCH (m:Movie) RETURN {movie: m.title, boxOffice: m.boxOffice} AS result ORDER BY m.boxOffice DESC LIMIT 5"
+Create a Cypher statement to answer the following question:List all movies directed by Quentin Tarantino,MATCH (d:Person {name: 'Quentin Tarantino'})-[:DIRECTED]->(m) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:How many movies has Tom Hanks acted in?,MATCH (a:Person {name: 'Tom Hanks'})-[:ACTED_IN]->(m) RETURN COUNT(m) AS movieCount
+Create a Cypher statement to answer the following question:Find movies similar to The Shawshank Redemption,"MATCH (m:Movie {title: 'The Shawshank Redemption'})<-[:RATED]-(u:User)-[:RATED]->(rec:Movie) WITH rec, COUNT(*) AS usersWhoAlsoWatched ORDER BY usersWhoAlsoWatched DESC LIMIT 25 RETURN rec.title AS recommendation, usersWhoAlsoWatched"
+Create a Cypher statement to answer the following question:Who directed The Matrix?,MATCH (m:Movie {title: 'The Matrix'})<-[r:DIRECTED]-(d) RETURN {director: d.name} AS result
+Create a Cypher statement to answer the following question:What is the runtime of Titanic?,MATCH (m:Movie {title: 'Titanic'}) RETURN {runtime: m.runtime} AS result
+Create a Cypher statement to answer the following question:List movies released in 1999,MATCH (m:Movie) WHERE m.year = 1999 RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Find actors who worked with Quentin Tarantino,MATCH (d:Person {name:'Quentin Tarantino'})-[:DIRECTED]->(m:Movie)<-[:ACTED_IN]-(a:Person) RETURN DISTINCT {actor: a.name} AS result
+Create a Cypher statement to answer the following question:List all movies in the Action genre,MATCH (m:Movie)-[:IN_GENRE]->(g:Genre {name: 'Action'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Who composed the music for The Lion King?,MATCH (m:Movie {title: 'The Lion King'})<-[:COMPOSED_MUSIC_FOR]-(c) RETURN {composer: c.name} AS result
+Create a Cypher statement to answer the following question:Find movies with Tom Hanks,MATCH (a:Person {name: 'Tom Hanks'})-[:ACTED_IN]->(m:Movie) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:Which movies have a rating above 9?,MATCH (m:Movie) WHERE m.imdbRating > 9 RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:List movies with both Brad Pitt and Angelina Jolie,MATCH (bp:Person {name: 'Brad Pitt'})-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(aj:Person {name: 'Angelina Jolie'}) RETURN {movie: m.title} AS result
+Create a Cypher statement to answer the following question:What languages are available in Inception?,MATCH (m:Movie {title: 'Inception'})-[:HAS_LANGUAGE]->(l) RETURN {language: l.name} AS result
