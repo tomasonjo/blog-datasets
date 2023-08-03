@@ -1,0 +1,24 @@
+Query,Schema,Correct Query
+"MATCH (p:Person)-[:KNOWS]->(:Person) RETURN p, count(*) AS count","(Person, KNOWS, Person), (Person, WORKS_AT, Organization)","MATCH (p:Person)-[:KNOWS]->(:Person) RETURN p, count(*) AS count"
+"MATCH (p:Person {id:""Foo""})<-[:WORKS_AT]-(o:Organization) RETURN o.name AS name","(Person, KNOWS, Person), (Person, WORKS_AT, Organization)","MATCH (p:Person {id:""Foo""})-[:WORKS_AT]->(o:Organization) RETURN o.name AS name"
+"MATCH (o:Organization)-[:WORKS_AT]->(p:Person {id:""Foo""}) RETURN o.name AS name","(Person, KNOWS, Person), (Person, WORKS_AT, Organization)","MATCH (o:Organization)<-[:WORKS_AT]-(p:Person {id:""Foo""}) RETURN o.name AS name"
+"MATCH (o:Organization)-[:WORKS_AT]->(p:Person {id:""Foo""})-[:WORKS_AT]->(o1:Organization) RETURN o.name AS name","(Person, KNOWS, Person), (Person, WORKS_AT, Organization)","MATCH (o:Organization)<-[:WORKS_AT]-(p:Person {id:""Foo""})-[:WORKS_AT]->(o1:Organization) RETURN o.name AS name"
+"MATCH (p:Person)
+RETURN p,
+       [(p)-[:WORKS_AT]->(o:Organization) | o.name] AS op","(Person, KNOWS, Person), (Person, WORKS_AT, Organization)","MATCH (p:Person)
+RETURN p,
+       [(p)-[:WORKS_AT]->(o:Organization) | o.name] AS op"
+"MATCH (p:Person)
+RETURN p,
+       [(p)<-[:WORKS_AT]-(o:Organization) | o.name] AS op","(Person, KNOWS, Person), (Person, WORKS_AT, Organization)","MATCH (p:Person)
+RETURN p,
+       [(p)-[:WORKS_AT]->(o:Organization) | o.name] AS op"
+"MATCH (p:Person) MATCH (p)-[:WORKS_AT]->(:Organization) RETURN p, count(*)","(Person, KNOWS, Person), (Person, WORKS_AT, Organization)","MATCH (p:Person) MATCH (p)-[:WORKS_AT]->(:Organization) RETURN p, count(*)"
+"MATCH (p:Person) MATCH (p)<-[:WORKS_AT]-(:Organization) RETURN p, count(*)","(Person, KNOWS, Person), (Person, WORKS_AT, Organization)","MATCH (p:Person) MATCH (p)-[:WORKS_AT]->(:Organization) RETURN p, count(*)"
+"MATCH (p:Person), (p)<-[:WORKS_AT]-(:Organization) RETURN p, count(*)","(Person, KNOWS, Person), (Person, WORKS_AT, Organization)","MATCH (p:Person), (p)-[:WORKS_AT]->(:Organization) RETURN p, count(*)"
+"MATCH (o:Organization)-[:WORKS_AT]->(p:Person {id:""Foo""})-[:WORKS_AT]->(o1:Organization) 
+WHERE id(o) < id(o1) RETURN o.name AS name","(Person, KNOWS, Person), (Person, WORKS_AT, Organization)","MATCH (o:Organization)<-[:WORKS_AT]-(p:Person {id:""Foo""})-[:WORKS_AT]->(o1:Organization) 
+WHERE id(o) < id(o1) RETURN o.name AS name"
+"MATCH (o:Organization)-[:WORKS_AT]-(p:Person {id:""Foo""})-[:WORKS_AT]-(o1:Organization) 
+WHERE id(o) < id(o1) RETURN o.name AS name","(Person, KNOWS, Person), (Person, WORKS_AT, Organization)","MATCH (o:Organization)-[:WORKS_AT]-(p:Person {id:""Foo""})-[:WORKS_AT]-(o1:Organization) 
+WHERE id(o) < id(o1) RETURN o.name AS name"
