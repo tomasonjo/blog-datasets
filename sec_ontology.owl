@@ -1,75 +1,178 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://example.org/sec#"
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://example.org/sec"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-
-    <owl:Ontology rdf:about="http://example.org/sec"/>
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://example.org/sec">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
 
     <!-- Classes -->
-    <owl:Class rdf:about="#Company"/>
-    <owl:Class rdf:about="#Investor"/>
-    <owl:Class rdf:about="#SecFiling"/>
-    <owl:Class rdf:about="#OwnershipStatement"/>
-    <owl:Class rdf:about="#FinancialStatement"/>
+    <Declaration>
+        <Class IRI="#Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Investor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecFiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OwnershipStatement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinancialStatement"/>
+    </Declaration>
 
     <!-- Object Properties -->
-    <owl:ObjectProperty rdf:about="#hasFiling">
-        <rdfs:domain rdf:resource="#Company"/>
-        <rdfs:range rdf:resource="#SecFiling"/>
-    </owl:ObjectProperty>
-
-    <owl:ObjectProperty rdf:about="#filingBy">
-        <rdfs:domain rdf:resource="#SecFiling"/>
-        <rdfs:range rdf:resource="#Investor"/>
-    </owl:ObjectProperty>
-
-    <owl:ObjectProperty rdf:about="#hasOwnershipStatement">
-        <rdfs:domain rdf:resource="#SecFiling"/>
-        <rdfs:range rdf:resource="#OwnershipStatement"/>
-    </owl:ObjectProperty>
-
-    <owl:ObjectProperty rdf:about="#hasFinancialStatement">
-        <rdfs:domain rdf:resource="#SecFiling"/>
-        <rdfs:range rdf:resource="#FinancialStatement"/>
-    </owl:ObjectProperty>
-
-    <owl:ObjectProperty rdf:about="#holdsSharesIn">
-        <rdfs:domain rdf:resource="#Investor"/>
-        <rdfs:range rdf:resource="#Company"/>
-    </owl:ObjectProperty>
+    <Declaration>
+        <ObjectProperty IRI="#hasFiling"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#filingBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOwnershipStatement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFinancialStatement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#holdsSharesIn"/>
+    </Declaration>
 
     <!-- Data Properties -->
-    <owl:DatatypeProperty rdf:about="#companyName">
-        <rdfs:domain rdf:resource="#Company"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <Declaration>
+        <DataProperty IRI="#companyName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#investorName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#filingDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sharePercentage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#financialItem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#financialValue"/>
+    </Declaration>
 
-    <owl:DatatypeProperty rdf:about="#investorName">
-        <rdfs:domain rdf:resource="#Investor"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <!-- Object Property Characteristics -->
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFiling"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFiling"/>
+        <Class IRI="#SecFiling"/>
+    </ObjectPropertyRange>
 
-    <owl:DatatypeProperty rdf:about="#filingDate">
-        <rdfs:domain rdf:resource="#SecFiling"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-    </owl:DatatypeProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#filingBy"/>
+        <Class IRI="#SecFiling"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#filingBy"/>
+        <Class IRI="#Investor"/>
+    </ObjectPropertyRange>
 
-    <owl:DatatypeProperty rdf:about="#sharePercentage">
-        <rdfs:domain rdf:resource="#OwnershipStatement"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOwnershipStatement"/>
+        <Class IRI="#SecFiling"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOwnershipStatement"/>
+        <Class IRI="#OwnershipStatement"/>
+    </ObjectPropertyRange>
 
-    <owl:DatatypeProperty rdf:about="#financialItem">
-        <rdfs:domain rdf:resource="#FinancialStatement"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFinancialStatement"/>
+        <Class IRI="#SecFiling"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFinancialStatement"/>
+        <Class IRI="#FinancialStatement"/>
+    </ObjectPropertyRange>
 
-    <owl:DatatypeProperty rdf:about="#financialValue">
-        <rdfs:domain rdf:resource="#FinancialStatement"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-    </owl:DatatypeProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#holdsSharesIn"/>
+        <Class IRI="#Investor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#holdsSharesIn"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyRange>
 
-</rdf:RDF>
+    <!-- Data Property Characteristics -->
+    <DataPropertyDomain>
+        <DataProperty IRI="#companyName"/>
+        <Class IRI="#Company"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#companyName"/>
+        <Datatype abbreviatedIRI="&xsd;string"/>
+    </DataPropertyRange>
+
+    <DataPropertyDomain>
+        <DataProperty IRI="#investorName"/>
+        <Class IRI="#Investor"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#investorName"/>
+        <Datatype abbreviatedIRI="&xsd;string"/>
+    </DataPropertyRange>
+
+    <DataPropertyDomain>
+        <DataProperty IRI="#filingDate"/>
+        <Class IRI="#SecFiling"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#filingDate"/>
+        <Datatype abbreviatedIRI="&xsd;date"/>
+    </DataPropertyRange>
+
+    <DataPropertyDomain>
+        <DataProperty IRI="#sharePercentage"/>
+        <Class IRI="#OwnershipStatement"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#sharePercentage"/>
+        <Datatype abbreviatedIRI="&xsd;decimal"/>
+    </DataPropertyRange>
+
+    <DataPropertyDomain>
+        <DataProperty IRI="#financialItem"/>
+        <Class IRI="#FinancialStatement"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#financialItem"/>
+        <Datatype abbreviatedIRI="&xsd;string"/>
+    </DataPropertyRange>
+
+    <DataPropertyDomain>
+        <DataProperty IRI="#financialValue"/>
+        <Class IRI="#FinancialStatement"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#financialValue"/>
+        <Datatype abbreviatedIRI="&xsd;decimal"/>
+    </DataPropertyRange>
+
+</Ontology>
