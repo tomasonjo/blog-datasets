@@ -1,0 +1,63 @@
+@prefix : <http://example.org/sec#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Classes
+:Company rdf:type owl:Class .
+
+:Investor rdf:type owl:Class .
+
+:SecFiling rdf:type owl:Class .
+
+:OwnershipStatement rdf:type owl:Class .
+
+:FinancialStatement rdf:type owl:Class .
+
+# Properties
+:hasFiling rdf:type owl:ObjectProperty ;
+rdfs:domain :Company ;
+rdfs:range :SecFiling .
+
+:filingBy rdf:type owl:ObjectProperty ;
+rdfs:domain :SecFiling ;
+rdfs:range :Investor .
+
+:hasOwnershipStatement rdf:type owl:ObjectProperty ;
+rdfs:domain :SecFiling ;
+rdfs:range :OwnershipStatement .
+
+:hasFinancialStatement rdf:type owl:ObjectProperty ;
+rdfs:domain :SecFiling ;
+rdfs:range :FinancialStatement .
+
+:holdsSharesIn rdf:type owl:ObjectProperty ;
+rdfs:domain :Investor ;
+rdfs:range :Company .
+
+# Data Properties
+:companyName rdf:type owl:DatatypeProperty ;
+rdfs:domain :Company ;
+rdfs:range xsd:string .
+
+:investorName rdf:type owl:DatatypeProperty ;
+rdfs:domain :Investor ;
+rdfs:range xsd:string .
+
+:filingDate rdf:type owl:DatatypeProperty ;
+rdfs:domain :SecFiling ;
+rdfs:range xsd:date .
+
+:sharePercentage rdf:type owl:DatatypeProperty ;
+rdfs:domain :OwnershipStatement ;
+rdfs:range xsd:decimal .
+
+:financialItem rdf:type owl:DatatypeProperty ;
+rdfs:domain :FinancialStatement ;
+rdfs:range xsd:string .
+
+:financialValue rdf:type owl:DatatypeProperty ;
+rdfs:domain :FinancialStatement ;
+rdfs:range xsd:decimal .
