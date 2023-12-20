@@ -125,4 +125,17 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#operatesInIndustry"/>
         <Class IRI="#Industry"/>
-    </Object
+    </ObjectPropertyRange>
+
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locatedIn"/>
+        <Class IRI="#Company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locatedIn"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+
+    <!-- More declarations and characteristics can be added as needed -->
+
+</Ontology>
