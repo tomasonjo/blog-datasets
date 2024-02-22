@@ -1,0 +1,300 @@
+movieId,released,title,actors,director,genres,imdbRating
+1,1995-11-22,Toy Story,Jim Varney|Tim Allen|Tom Hanks|Don Rickles,John Lasseter,Adventure|Animation|Children|Comedy|Fantasy,8.3
+2,1995-12-15,Jumanji,Robin Williams|Bradley Pierce|Kirsten Dunst|Jonathan Hyde,Joe Johnston,Adventure|Children|Fantasy,6.9
+3,1995-12-22,Grumpier Old Men,Walter Matthau|Ann-Margret|Jack Lemmon|Sophia Loren,Howard Deutch,Comedy|Romance,6.6
+4,1995-12-22,Waiting to Exhale,Whitney Houston|Lela Rochon|Angela Bassett|Loretta Devine,Forest Whitaker,Romance|Drama|Comedy,5.6
+5,1995-12-08,Father of the Bride Part II,Steve Martin|Kimberly Williams-Paisley|Diane Keaton|Martin Short,Charles Shyer,Comedy,5.9
+6,1995-12-15,Heat,Al Pacino|Robert De Niro|Val Kilmer|Jon Voight,Michael Mann,Action|Crime|Thriller,8.2
+7,1995-12-15,Sabrina,Julia Ormond|Harrison Ford|Nancy Marchand|Greg Kinnear,Sydney Pollack,Comedy|Romance,6.2
+8,1995-12-22,Tom and Huck,Jonathan Taylor Thomas|Brad Renfro|Eric Schweig|Charles Rocket,Peter Hewitt,Children|Adventure,5.6
+9,1995-12-22,Sudden Death,Jean-Claude Van Damme|Powers Boothe|Raymond J. Barry|Whittni Wright,Peter Hyams,Action,5.7
+10,1995-11-17,GoldenEye,Pierce Brosnan|Famke Janssen|Sean Bean|Izabella Scorupco,Martin Campbell,Adventure|Action|Thriller,7.2
+11,1995-11-17,"American President, The",Martin Sheen|Michael J. Fox|Michael Douglas|Annette Bening,Rob Reiner,Comedy|Romance|Drama,6.8
+12,1995-12-22,Dracula: Dead and Loving It,Peter MacNicol|Leslie Nielsen|Steven Weber|Amy Yasbeck,Mel Brooks,Comedy|Horror,5.8
+13,1995-12-22,Balto,Kevin Bacon|Bob Hoskins|Jim Cummings|Bridget Fonda,Simon Wells,Children|Adventure|Animation,7.1
+14,1996-01-05,Nixon,Ed Harris|Anthony Hopkins|Powers Boothe|Joan Allen,Oliver Stone,Drama,7.1
+15,1995-12-22,Cutthroat Island,Geena Davis|Frank Langella|Matthew Modine|Maury Chaykin,Renny Harlin,Romance|Adventure|Action,5.6
+16,1995-11-22,Casino,Robert De Niro|Joe Pesci|Sharon Stone|James Woods,Martin Scorsese,Drama|Crime,8.2
+17,1996-01-26,Sense and Sensibility,James Fleet|Kate Winslet|Tom Wilkinson|Harriet Walter,Ang Lee,Drama|Romance,7.7
+18,1995-12-25,Four Rooms,Amanda De Cadenet|Valeria Golino|Madonna|Sammi Davis,Allison Anders|Robert Rodriguez|Quentin Tarantino| Alexandre Rockwell,Comedy,6.7
+19,1995-11-10,Ace Ventura: When Nature Calls,Jim Carrey|Ian McNeice|Simon Callow|Maynard Eziashi,Steve Oedekerk,Comedy,6.3
+20,1995-11-22,Money Train,Wesley Snipes|Robert Blake|Woody Harrelson|Jennifer Lopez,Joseph Ruben,Crime|Comedy|Thriller|Drama|Action,5.6
+21,1995-10-20,Get Shorty,Danny DeVito|Gene Hackman|Rene Russo|John Travolta,Barry Sonnenfeld,Thriller|Crime|Comedy,6.9
+22,1995-10-27,Copycat,Sigourney Weaver|Holly Hunter|Dermot Mulroney|William McNamara,Jon Amiel,Drama|Horror|Mystery|Thriller|Crime,6.6
+23,1995-10-06,Assassins,Sylvester Stallone|Anatoli Davydov|Antonio Banderas|Julianne Moore,Richard Donner,Action|Crime|Thriller,6.3
+24,1995-10-27,Powder,Mary Steenburgen|Jeff Goldblum|Lance Henriksen|Sean Patrick Flanery,Victor Salva,Sci-Fi|Drama,6.5
+25,1996-02-09,Leaving Las Vegas,Nicolas Cage|Elisabeth Shue|Julian Sands|Richard Lewis,Mike Figgis,Romance|Drama,7.6
+26,1996-01-19,Othello,Irène Jacob|Laurence Fishburne|Kenneth Branagh|Nathaniel Parker,Oliver Parker,Drama,7.0
+27,1995-10-20,Now and Then,Melanie Griffith|Thora Birch|Rosie O'Donnell|Christina Ricci,Lesli Linka Glatter,Drama|Children,6.7
+28,1995-09-27,Persuasion,Amanda Root|Susan Fleetwood|Ciarán Hinds|Corin Redgrave,Roger Michell,Romance|Drama,7.7
+29,1995-12-15,"City of Lost Children, The (Cité des enfants perdus, La)",Ron Perlman|Judith Vittet|Daniel Emilfork|Dominique Pinon,Jean-Pierre Jeunet|Marc Caro,Adventure|Drama|Fantasy|Mystery|Sci-Fi,7.7
+30,1995-12-22,Shanghai Triad (Yao a yao yao dao waipo qiao),Gong Li|Li Baotian|Wang Xiaoxiao|Xuejian Li,Yimou Zhang,Drama|Crime,7.2
+31,1995-08-11,Dangerous Minds,Michelle Pfeiffer|Robin Bartlett|George Dzundza|Courtney B. Vance,John N. Smith,Drama,6.4
+32,1996-01-05,Twelve Monkeys (a.k.a. 12 Monkeys),Bruce Willis|Jon Seda|Michael Chance|Joseph Melito,Terry Gilliam,Mystery|Sci-Fi|Thriller,8.1
+34,1995-08-04,Babe,Hugo Weaving|Christine Cavanaugh|Danny Mann|Miriam Margolyes,Chris Noonan,Children|Drama,6.8
+35,1995-11-10,Carrington,Steven Waddington|Emma Thompson|Samuel West|Jonathan Pryce,Christopher Hampton,Romance|Drama,6.9
+36,1996-02-02,Dead Man Walking,Susan Sarandon|Raymond J. Barry|Robert Prosky|Sean Penn,Tim Robbins,Drama|Crime,7.6
+37,1995-10-20,Across the Sea of Time,Victor Steinbach|Peter Reznick|John McDonough|Avi Hoffman,Stephen Low,IMAX|Documentary,6.6
+38,1995-11-17,It Takes Two,Kirstie Alley|Steve Guttenberg|Mary-Kate Olsen|Ashley Olsen,Andy Tennant,Comedy|Children,5.7
+39,1995-07-19,Clueless,Alicia Silverstone|Paul Rudd|Brittany Murphy|Stacey Dash,Amy Heckerling,Comedy|Romance,6.8
+40,1995-12-15,"Cry, the Beloved Country",James Earl Jones|Vusi Kunene|Richard Harris|Charles S. Dutton,Darrell James Roodt,Drama,6.9
+41,1995-12-29,Richard III,Ian McKellen|Jim Broadbent|Annette Bening|Robert Downey Jr.,Richard Loncraine,Drama|War,7.5
+42,1995-10-06,Dead Presidents,Larenz Tate|Freddy Rodríguez|Chris Tucker|Keith David,Albert Hughes| Allen Hughes,Drama|Action|Crime,6.8
+43,1996-02-02,Restoration,Sam Neill|David Thewlis|Robert Downey Jr.|Polly Walker,Michael Hoffman,Drama,6.7
+44,1995-08-18,Mortal Kombat,Christopher Lambert|Linden Ashby|Robin Shou|Cary-Hiroyuki Tagawa,Paul W.S. Anderson,Adventure|Action|Fantasy,5.8
+45,1995-10-06,To Die For,Joaquin Phoenix|Matt Dillon|Casey Affleck|Nicole Kidman,Gus Van Sant,Drama|Thriller|Comedy,6.8
+46,1995-10-06,How to Make an American Quilt,Anne Bancroft|Winona Ryder|Adam Baldwin|Kate Capshaw,Jocelyn Moorhouse,Romance|Drama,6.2
+47,1995-09-22,Seven (a.k.a. Se7en),Morgan Freeman|Brad Pitt|Andrew Kevin Walker|Daniel Zacapa,David Fincher,Mystery|Thriller,8.6
+48,1995-06-23,Pocahontas,Mel Gibson|Irene Bedard|David Ogden Stiers|Judy Kuhn,Eric Goldberg|Mike Gabriel,Drama|Musical|Animation|Children|Romance,6.6
+49,1995-11-17,When Night Is Falling,Henry Czerny|Rachael Crawford|David Fox|Pascale Bussières,Patricia Rozema,Drama|Romance,6.8
+50,1995-09-15,"Usual Suspects, The",Gabriel Byrne|Stephen Baldwin|Benicio Del Toro|Kevin Pollak,Bryan Singer,Thriller|Mystery|Crime,8.6
+52,1995-11-10,Mighty Aphrodite,Woody Allen|Mira Sorvino|Rene Ceballos|George De La Pena,Woody Allen,Drama|Comedy|Romance,7.1
+53,1995-10-04,Lamerica,Enrico Lo Verso|Carmelo Di Mazzarelli|Piro Milkani|Michele Placido,Gianni Amelio,Adventure|Drama,7.6
+54,1995-09-29,"Big Green, The",Olivia d'Abo|Jay O. Sanders|Steve Guttenberg|John Terry,Holly Goldberg Sloan,Children|Comedy,5.4
+55,1995-12-08,Georgia,Jennifer Jason Leigh|Max Perlich|Mare Winningham|Ted Levine,Ulu Grosbard,Drama,6.4
+57,1995-11-03,Home for the Holidays,Holly Hunter|Charles Durning|Robert Downey Jr.|Anne Bancroft,Jodie Foster,Drama,6.6
+58,1996-03-22,"Postman, The (Postino, Il)",Philippe Noiret|Renato Scarpa|Maria Grazia Cucinotta|Massimo Troisi,Michael Radford,Comedy|Romance|Drama,7.8
+59,1996-08-16,"Confessional, The (Confessionnal, Le)",Patrick Goyette|Jean-Louis Millette|Kristin Scott Thomas|Lothaire Bluteau,Robert Lepage,Drama|Mystery,7.6
+60,1995-07-14,"Indian in the Cupboard, The",Hal Scardino|Litefoot|Lindsay Crouse|Richard Jenkins,Frank Oz,Fantasy|Adventure|Children,5.9
+61,1996-01-12,Eye for an Eye,Sally Field|Ed Harris|Olivia Burnette|Alexandra Kyle,John Schlesinger,Drama|Thriller,6.1
+62,1996-01-19,Mr. Holland's Opus,Jay Thomas|Glenne Headly|Olympia Dukakis|Richard Dreyfuss,Stephen Herek,Drama,7.3
+63,1996-01-12,Don't Be a Menace to South Central While Drinking Your Juice in the Hood,Chris Spencer|Tracey Cherelle Jones|Marlon Wayans|Shawn Wayans,Paris Barclay,Comedy|Crime,6.6
+64,1996-01-12,Two if by Sea,Denis Leary|Sandra Bullock|Stephen Dillane|Yaphet Kotto,Bill Bennett,Comedy|Romance,5.2
+65,1996-01-12,Bio-Dome,William Atherton|Denise Dowse|Dara Tomanovich|Kevin West,Jason Bloom,Comedy,4.3
+66,1996-01-12,Lawnmower Man 2: Beyond Cyberspace,Patrick Bergin|Matt Frewer|Ely Pouget|Austin O'Brien,Farhad Mann,Thriller|Sci-Fi|Action,2.4
+68,1996-01-19,French Twist (Gazon maudit),Ticky Holgado|Alain Chabat|Josiane Balasko|Victoria Abril,Josiane Balasko,Romance|Comedy,6.4
+69,1995-04-26,Friday,Tommy 'Tiny' Lister|Nia Long|Chris Tucker|Ice Cube,F. Gary Gray,Comedy,7.3
+70,1996-01-19,From Dusk Till Dawn,George Clooney|Quentin Tarantino|Harvey Keitel|Juliette Lewis,Robert Rodriguez,Thriller|Action|Comedy|Horror,7.3
+71,1995-11-03,Fair Game,William Baldwin|Christopher McDonald|Steven Berkoff|Cindy Crawford,Andrew Sipes,Action,4.1
+72,1995-10-06,Kicking and Screaming,Josh Hamilton|Jonathan Baumbach|Samuel Gould|Catherine Kellner,Noah Baumbach,Drama|Comedy,7.1
+73,1995-11-03,"Misérables, Les",Jean-Paul Belmondo|Michel Boujenah|Alessandra Martines|Salomé Lelouch, Claude Lelouch,War|Drama,7.5
+74,1996-01-26,Bed of Roses,Christian Slater|Mary Stuart Masterson|Josh Brolin|Pamela Adlon,Michael Goldenberg,Romance|Drama,6.0
+76,1996-01-26,Screamers,Peter Weller|Andrew Lauer|Jennifer Rubin|Roy Dupuis,Christian Duguay,Action|Sci-Fi|Thriller,6.4
+77,1995-11-16,Nico Icon,Christian Aaron Boulogne|Christian Päffgen|Tina Aumont|Nico,Susanne Ofteringer,Documentary,7.3
+78,1995-11-16,"Crossing Guard, The",Jack Nicholson|Anjelica Huston|David Morse|Robin Wright,Sean Penn,Action|Crime|Drama|Thriller,6.4
+79,1996-02-02,"Juror, The",Alec Baldwin|Demi Moore|Anne Heche|Joseph Gordon-Levitt,Brian Gibson,Drama|Thriller,5.6
+80,1995-11-27,"White Balloon, The (Badkonake sefid)",Anna Borkowska|Aida Mohammadkhani|Mohsen Kafili|Fereshteh Sadre Orafaiy,Jafar Panahi,Children|Drama,7.8
+81,1995-12-01,Things to Do in Denver When You're Dead,Andy Garcia|Bill Nunn|Christopher Lloyd|William Forsythe,Gary Fleder,Crime|Drama|Romance,6.8
+82,1996-02-02,Antonia's Line (Antonia),Veerle van Overloop|Els Dottermans|Dora van der Groen|Willeke van Ammelrooy,Marleen Gorris,Drama|Comedy,7.5
+83,1996-01-26,Once Upon a Time... When We Were Colored,Al Freeman Jr.|Leon|Phylicia Rashad|Paula Kelly,Tim Reid,Drama|Romance,7.3
+84,1996-09-15,Last Summer in the Hamptons,Victoria Foyt|Jon Robin Baitz|Viveca Lindfors|Savannah Smith Boucher,Henry Jaglom,Drama|Comedy,6.1
+85,1996-01-26,Angels and Insects,Patsy Kensit|Kristin Scott Thomas|Mark Rylance|Jeremy Kemp,Philip Haas,Drama|Romance,7.0
+86,1996-02-02,White Squall,Jeff Bridges|Scott Wolf|John Savage|Caroline Goodall,Ridley Scott,Action|Drama|Adventure,6.6
+87,1996-01-12,Dunston Checks In,Jason Alexander|Faye Dunaway|Rupert Everett|Eric Lloyd,Ken Kwapis,Comedy|Children,5.2
+88,1996-02-02,Black Sheep,Chris Farley|Christine Ebersole|Tim Matheson|David Spade,Penelope Spheeris,Comedy,6.2
+89,1995-11-22,Nick of Time,Christopher Walken|Courtney Chase|Charles S. Dutton|Johnny Depp,John Badham,Action|Thriller,6.3
+92,1996-02-23,Mary Reilly,Julia Roberts|George Cole|Michael Gambon|John Malkovich,Stephen Frears,Horror|Thriller|Drama,5.8
+93,1995-10-27,Vampire in Brooklyn,Eddie Murphy|Kadeem Hardison|Angela Bassett|Allen Payne,Wes Craven,Comedy|Horror|Romance,4.5
+94,1996-02-09,Beautiful Girls,Annabeth Gish|Matt Dillon|Lauren Holly|Noah Emmerich,Ted Demme,Drama|Romance|Comedy,7.2
+95,1996-02-09,Broken Arrow,John Travolta|Christian Slater|Samantha Mathis|Delroy Lindo,John Woo,Adventure|Action|Thriller,6.0
+96,1996-02-16,In the Bleak Midwinter,Nicholas Farrell|Richard Briers|Joan Collins|Hetta Charnley,Kenneth Branagh,Comedy|Drama,7.3
+97,1996-02-23,"Hate (Haine, La)",Vincent Cassel|Abdel Ahmed Ghili|Saïd Taghmaoui|Hubert Koundé,Mathieu Kassovitz,Drama|Crime,8.1
+98,1996-02-09,Shopping,Fraser James|Sean Pertwee|Jude Law|Sadie Frost,Paul W.S. Anderson,Thriller|Action,5.4
+99,1996-02-09,Heidi Fleiss: Hollywood Madam,Heidi Fleiss|Nick Broomfield|Corinne Bohrer|Madam Alex,Nick Broomfield,Documentary,6.6
+100,1996-02-16,City Hall,Al Pacino|John Cusack|Bridget Fonda|Danny Aiello,Harold Becker,Thriller|Drama,6.2
+101,1996-02-21,Bottle Rocket,Owen Wilson|Luke Wilson|Ned Dowd|Shea Fowler,Wes Anderson,Romance|Crime|Comedy|Adventure,7.1
+102,1996-02-16,Mr. Wrong,Dean Stockwell|Joan Cusack|Bill Pullman|Ellen DeGeneres,Nick Castle,Comedy,3.7
+103,1996-02-23,Unforgettable,Ray Liotta|Linda Fiorentino|Peter Coyote|Christopher McDonald,John Dahl,Thriller|Sci-Fi|Mystery,6.0
+104,1996-02-16,Happy Gilmore,Adam Sandler|Christopher McDonald|Frances Bay|Julie Bowen,Dennis Dugan,Comedy,7.0
+105,1995-06-02,"Bridges of Madison County, The",Clint Eastwood|Meryl Streep|Annie Corley|Victor Slezak,Clint Eastwood,Drama|Romance,7.5
+107,1996-02-16,Muppet Treasure Island,Tim Curry|Billy Connolly|Jennifer Saunders|Kevin Bishop,Brian Henson,Children|Comedy|Musical|Adventure,6.9
+108,1996-05-16,Catwalk,Christy Turlington|Giorgio Armani|Azzedine Alaïa|Nadja Auermann,Robert Leacock,Documentary,6.4
+110,1995-05-24,Braveheart,James Robinson|Sandy Nelson|Sean Lawlor|James Cosmo,Mel Gibson,War|Drama|Action,8.4
+111,1976-02-08,Taxi Driver,Diahnne Abbott|Gino Ardito|Frank Adu|Victor Argo,Martin Scorsese,Thriller|Drama|Crime,8.3
+112,1996-02-23,Rumble in the Bronx (Hont faan kui),Bill Tung|Anita Mui|Françoise Yip|Jackie Chan,Stanley Tong,Crime|Comedy|Adventure|Action,6.7
+113,1996-02-23,Before and After,Meryl Streep|Julia Weldon|Edward Furlong|Liam Neeson,Barbet Schroeder,Drama|Mystery,6.1
+114,1996-01-26,Margaret's Museum,Helena Bonham Carter|Craig Anthony Olejnik|Clive Russell|Kate Nelligan,Mort Ransen,Drama,7.3
+116,1995-08-31,Anne Frank Remembered,Kenneth Branagh|Glenn Close|Janny Brandes-Brilslijper,Jon Blair,Documentary,8.2
+117,1996-02-23,"Young Poisoner's Handbook, The",Tobias Arnold|Roger Lloyd Pack|Ruth Sheen|Hugh O'Conor,Benjamin Ross,Drama|Crime,7.1
+118,1996-03-08,If Lucy Fell,Ben Stiller|Sarah Jessica Parker|Eric Schaeffer|Elle Macpherson,Eric Schaeffer,Romance|Comedy,4.9
+119,1995-09-29,"Steal Big, Steal Little",Andy Garcia|Rachel Ticotin|Alan Arkin|Joe Pantoliano,Andrew Davis,Comedy,4.8
+121,1992-12-06,"Boys of St. Vincent, The",Philip Dinn|Brian Dooley|Johnny Morina|Henry Czerny,John N. Smith,Drama,7.8
+122,1992-07-01,Boomerang,Eddie Murphy|Halle Berry|Robin Givens|David Alan Grier,Reginald Hudlin,Romance|Comedy,5.4
+123,1996-03-08,Chungking Express (Chung Hing sam lam),Tony Leung Chiu-Wai|Brigitte Lin|Takeshi Kaneshiro|Faye Wong, Kar-wai Wong,Mystery|Drama|Romance,8.1
+124,1996-03-08,"Star Maker, The (Uomo delle stelle, L')",Sergio Castellitto|Franco Scaldati|Tiziana Lodato|Leopoldo Trieste,Giuseppe Tornatore,Drama,7.3
+125,1996-04-12,Flirting With Disaster,Mary Tyler Moore|Téa Leoni|Patricia Arquette|Ben Stiller,David O. Russell,Comedy,6.8
+126,1994-10-27,"NeverEnding Story III, The",Jack Black|Melody Kay|Carole Finn|Jason James Richter,Peter MacDonald,Fantasy|Children|Adventure,3.1
+129,1996-02-09,Pie in the Sky,Josh Charles|Christine Lahti|Anne Heche|John Goodman,Bryan Gordon,Romance|Comedy,5.9
+130,1995-01-01,Angela,John Ventimiglia|Anna Levine|Charlotte Eve Blythe|Miranda Rhyne,Rebecca Miller,Drama,6.4
+131,1995-11-22,Frankie Starlight,Gabriel Byrne|Niall Toibin|Owen Roe|Corban Walker,Michael Lindsay-Hogg,Drama|Romance,6.7
+132,1995-10-13,Jade,David Caruso|Chazz Palminteri|Linda Fiorentino|Richard Crenna,William Friedkin,Thriller,5.1
+135,1996-03-01,Down Periscope,Lauren Holly|Kelsey Grammer|Harry Dean Stanton|Rob Schneider,David S. Ward,Comedy,6.0
+137,1996-03-15,Man of the Year,Vivian Paxton|Michael Ornstein|Claudette Sutherland|Cal Bartlett,Dirk Shafer,Documentary,6.1
+140,1996-03-01,Up Close and Personal,Robert Redford|Michelle Pfeiffer|Stockard Channing|Joe Mantegna,Jon Avnet,Romance|Drama,6.1
+141,1996-03-08,"Birdcage, The",Nathan Lane|Dianne Wiest|Robin Williams|Gene Hackman,Mike Nichols,Comedy,6.9
+144,1995-08-09,"Brothers McMullen, The",Shari Albert|Maxine Bahns|Catharine Bolz|Connie Britton,Edward Burns,Comedy,6.6
+145,1995-04-07,Bad Boys,Michael Taliferro|Lisa Boyle|Martin Lawrence|Will Smith,Michael Bay,Thriller|Drama|Crime|Action|Comedy,6.8
+146,1995-08-25,"Amazing Panda Adventure, The",Wang Fei|Stephen Lang|Yi Ding|Ryan Slater,Christopher Cain,Children|Adventure,5.8
+147,1995-04-21,"Basketball Diaries, The",Leonardo DiCaprio|Marilyn Sokol|Lorraine Bracco|James Madio,Scott Kalvert,Drama,7.3
+148,1995-07-21,"Awfully Big Adventure, An",Alan Rickman|Alun Armstrong|Georgina Cates|Hugh Grant,Mike Newell,Drama,6.1
+149,1995-05-19,Amateur,Isabelle Huppert|Martin Donovan|Elina Löwensohn|Damian Young,Hal Hartley,Drama|Thriller|Crime,7.0
+150,1995-06-30,Apollo 13,Bill Paxton|Kevin Bacon|Tom Hanks|Gary Sinise,Ron Howard,Drama|Adventure|IMAX,7.6
+151,1995-04-14,Rob Roy,Liam Neeson|Jessica Lange|John Hurt|Tim Roth,Michael Caton-Jones,Romance|Drama|Action|War,6.9
+152,1995-10-06,"Addiction, The",Lili Taylor|Christopher Walken|Annabella Sciorra|Edie Falco,Abel Ferrara,Horror|Drama,6.4
+153,1995-06-16,Batman Forever,Nicole Kidman|Jim Carrey|Tommy Lee Jones|Val Kilmer,Joel Schumacher,Action|Adventure|Comedy|Crime,5.4
+154,1968-04-10,Beauty of the Day (Belle de jour),Catherine Deneuve|Jean Sorel|Michel Piccoli|Geneviève Page,Luis Buñuel,Drama,7.8
+155,1995-08-25,Beyond Rangoon,Spalding Gray|Patricia Arquette|Frances McDormand|U Aung Ko,John Boorman,War|Drama|Adventure,6.6
+156,1995-10-13,Blue in the Face,Michael J. Fox|Mel Gorham|Roseanne Barr|Lou Reed,Wayne Wang|Paul Auster| Harvey Wang,Drama|Comedy,6.7
+157,1995-09-22,Canadian Bacon,John Candy|Alan Alda|Rhea Perlman|Kevin Pollak,Michael Moore,War|Comedy,5.9
+158,1995-05-26,Casper,Chauncey Leopardi|Cathy Moriarty|Malachi Pearson|Spencer Vrooman,Brad Silberling,Children|Adventure,6.0
+159,1995-09-13,Clockers,Harvey Keitel|Delroy Lindo|John Turturro|Mekhi Phifer,Spike Lee,Drama|Mystery|Crime,6.9
+160,1995-06-09,Congo,Tim Curry|Laura Linney|Dylan Walsh|Ernie Hudson,Frank Marshall,Adventure|Action|Sci-Fi|Mystery,5.0
+161,1995-05-12,Crimson Tide,Denzel Washington|Gene Hackman|Matt Craven|George Dzundza,Tony Scott,Thriller|Drama|War,7.3
+162,1995-04-28,Crumb,Aline Kominsky|Robert Crumb|Maxon Crumb|Charles Crumb,Terry Zwigoff,Documentary,8.0
+163,1995-08-25,Desperado,Antonio Banderas|Cheech Marin|Joaquim de Almeida|Salma Hayek,Robert Rodriguez,Romance|Action|Western,7.2
+164,1995-09-29,Devil in a Blue Dress,Denzel Washington|Jennifer Beals|Tom Sizemore|Don Cheadle,Carl Franklin,Mystery|Film-Noir|Thriller|Crime,6.7
+165,1995-05-19,Die Hard: With a Vengeance,Bruce Willis|Samuel L. Jackson|Jeremy Irons|Graham Greene,John McTiernan,Crime|Thriller|Action,7.6
+166,1995-10-27,"Doom Generation, The",Rose McGowan|Johnathon Schaech|Cress Williams|James Duval,Gregg Araki,Drama|Crime|Comedy,5.9
+167,1995-10-13,Feast of July,Embeth Davidtz|James Purefoy|Tom Bell|Gemma Jones,Christopher Menaul,Drama,6.4
+168,1995-07-07,First Knight,Sean Connery|Julia Ormond|Richard Gere|Ben Cross, Jerry Zucker,Romance|Action|Drama,5.9
+169,1995-07-19,Free Willy 2: The Adventure Home,Francis Capra|Mary Kate Schellhardt|August Schellenberg|Jason James Richter,Dwight H. Little,Adventure|Drama|Children,4.9
+170,1995-09-15,Hackers,Jesse Bradford|Jonny Lee Miller|Matthew Lillard|Angelina Jolie,Iain Softley,Action|Adventure|Crime|Thriller,6.2
+171,1995-08-18,Jeffrey,Patrick Stewart|Michael T. Weiss|Steven Weber|David Thornton,Christopher Ashley,Comedy|Drama,6.7
+172,1995-05-26,Johnny Mnemonic,Takeshi Kitano|Keanu Reeves|Ice-T|Dina Meyer,Robert Longo,Sci-Fi|Action|Thriller,5.5
+173,1995-06-30,Judge Dredd,Jürgen Prochnow|Sylvester Stallone|Rob Schneider|Armand Assante,Danny Cannon,Sci-Fi|Crime|Action,5.4
+174,1995-04-12,Jury Duty,Pauly Shore|Brian Doyle-Murray|Stanley Tucci|Tia Carrere,John Fortenberry,Comedy,4.0
+175,1995-09-01,Kids,Leo Fitzpatrick|Joseph Chan|Sarah Henderson|Justin Pierce,Larry Clark,Drama,7.0
+176,1995-07-21,Living in Oblivion,Steve Buscemi|Danielle von Zerneck|Dermot Mulroney|Catherine Keener,Tom DiCillo,Comedy,7.6
+177,1995-08-25,Lord of Illusions,Sheila Tousey|Joseph Latimore|Kevin J. O'Connor|Scott Bakula,Clive Barker,Horror,6.0
+178,1995-06-23,Love & Human Remains,Thomas Gibson|Ruth Marshall|Cameron Bancroft|Mia Kirshner,Denys Arcand,Drama|Comedy,6.8
+179,1995-05-26,Mad Love,Chris O'Donnell|Richard Chaim|Drew Barrymore|Matthew Lillard,Antonia Bird,Romance|Drama,5.2
+180,1995-10-20,Mallrats,Shannen Doherty|Jason Lee|Jeremy London|Claire Forlani,Kevin Smith,Comedy|Romance,7.2
+181,1995-06-30,Mighty Morphin Power Rangers: The Movie,Karan Ashley|Johnny Yong Bosch|Steve Cardenas|Jason David Frank,Bryan Spicer,Children|Action,5.0
+183,1995-09-15,Mute Witness,Fay Ripley|Evan Richards|Oleg Yankovskiy|Marina Zudina,Anthony Waller,Thriller|Horror|Comedy,6.8
+184,1995-09-01,Nadja,Elina Löwensohn|Nic Ratner|Karl Geary|Peter Fonda,Michael Almereyda,Drama,6.0
+185,1995-07-28,"Net, The",Sandra Bullock|Diane Baker|Jeremy Northam|Dennis Miller,Irwin Winkler,Action|Crime|Thriller,5.8
+186,1995-07-12,Nine Months,Hugh Grant|Joan Cusack|Tom Arnold|Julianne Moore,Chris Columbus,Romance|Comedy,5.4
+187,1995-06-09,Party Girl,Guillermo Díaz|Anthony DeSando|Donna Mitchell|Parker Posey,Daisy von Scherler Mayer,Comedy,6.6
+188,1995-09-01,"Prophecy, The",Christopher Walken|Eric Stoltz|Virginia Madsen|Elias Koteas,Gregory Widen,Fantasy|Horror|Mystery,6.6
+189,1995-11-17,Reckless,Mary-Louise Parker|Scott Glenn|Tony Goldwyn|Mia Farrow,Norman René,Fantasy|Comedy,5.0
+190,1995-06-30,Safe,Julianne Moore|Julie Burgess|Dean Norris|Xander Berkeley,Todd Haynes,Thriller,7.1
+191,1995-10-13,"Scarlet Letter, The",Demi Moore|Robert Duvall|Gary Oldman|Lisa Andoh,Roland Joffé,Drama|Romance,5.1
+193,1995-09-22,Showgirls,Glenn Plummer|Kyle MacLachlan|Gina Gershon|Elizabeth Berkley,Paul Verhoeven,Drama,4.6
+194,1995-06-09,Smoke,Giancarlo Esposito|Stephen Gevedon|José Zúñiga|Harvey Keitel,Paul Auster|Wayne Wang,Comedy|Drama,7.4
+195,1995-08-04,Something to Talk About,Julia Roberts|Robert Duvall|Dennis Quaid|Gena Rowlands,Lasse Hallström,Drama|Romance|Comedy,5.7
+196,1995-07-07,Species,Alfred Molina|Michael Madsen|Forest Whitaker|Ben Kingsley,Roger Donaldson,Sci-Fi|Horror,5.8
+198,1995-10-13,Strange Days,Ralph Fiennes|Angela Bassett|Juliette Lewis|Tom Sizemore,Kathryn Bigelow,Crime|Action|Thriller|Sci-Fi|Mystery|Drama,7.2
+199,1964-12-16,"Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)",Catherine Deneuve|Marc Michel|Anne Vernon|Nino Castelnuovo,Jacques Demy,Drama|Musical|Romance,7.8
+200,1995-09-08,"Tie That Binds, The",Keith Carradine|Daryl Hannah|Vincent Spano|Moira Kelly,Wesley Strick,Thriller,5.0
+201,1995-10-27,Three Wishes,Patrick Swayze|Seth Mumy|Mary Elizabeth Mastrantonio|Joseph Mazzello,Martha Coolidge,Drama|Fantasy,6.1
+202,1995-11-03,Total Eclipse,David Thewlis|Leonardo DiCaprio|Dominique Blanc|Romane Bohringer,Agnieszka Holland,Drama|Romance,6.5
+203,1995-09-08,"To Wong Foo, Thanks for Everything! Julie Newmar",Wesley Snipes|Stockard Channing|Patrick Swayze|John Leguizamo,Beeban Kidron,Comedy,6.3
+204,1995-07-14,Under Siege 2: Dark Territory,Eric Bogosian|Everett McGill|Katherine Heigl|Steven Seagal,Geoff Murphy,Action,5.4
+205,1995-09-22,Unstrung Heroes,Andie MacDowell|Michael Richards|John Turturro|Maury Chaykin,Diane Keaton,Drama|Comedy,6.8
+206,1995-08-11,Unzipped,Isaac Mizrahi|Roseanne Barr|Sandra Bernhard|Natane Boudreau,Douglas Keeve,Documentary,6.4
+207,1995-08-11,"Walk in the Clouds, A",Keanu Reeves|Giancarlo Giannini|Anthony Quinn|Aitana Sánchez-Gijón,Alfonso Arau,Drama|Romance,6.6
+208,1995-07-28,Waterworld,Kevin Costner|R.D. Call|Rick Aviles|Chaim Jeraffi,Kevin Reynolds,Adventure|Sci-Fi|Action,6.1
+209,1995-12-01,White Man's Burden,Harry Belafonte|John Travolta|Kelly Lynch|Margaret Avery,Desmond Nakano,Drama,5.2
+211,1994-10-12,"Browning Version, The",Greta Scacchi|Albert Finney|Julian Sands|Matthew Modine,Mike Figgis,Drama,7.3
+213,1995-04-21,Burnt by the Sun (Utomlyonnye solntsem),Nikita Mikhalkov|Ingeborga Dapkunaite|Nadezhda Mikhalkova|Oleg Menshikov,Nikita Mikhalkov,Drama,8.0
+214,1995-02-24,Before the Rain (Pred dozhdot),Katrin Cartlidge|Labina Mitevska|Grégoire Colin|Rade Serbedzija,Milcho Manchevski,Drama|War,8.1
+215,1995-01-27,Before Sunrise,Andrea Eckert|Julie Delpy|Ethan Hawke|Hanno Pöschl,Richard Linklater,Romance|Drama,8.1
+216,1995-02-10,Billy Madison,Bridgette Wilson|Adam Sandler|Darren McGavin|Bradley Whitford,Tamra Davis,Comedy,6.4
+217,1995-10-17,"Babysitter, The",Alicia Silverstone|J.T. Walsh|Jeremy London|Lee Garlington,Guy Ferland,Drama|Thriller,4.2
+218,1995-02-03,Boys on the Side,Whoopi Goldberg|Drew Barrymore|Mary-Louise Parker|Matthew McConaughey,Herbert Ross,Comedy|Drama,6.4
+219,1995-04-21,"Cure, The",Joseph Mazzello|Annabella Sciorra|Brad Renfro|Aeryk Egan,Peter Horton,Drama,7.7
+220,1995-11-14,Castle Freak,Jeffrey Combs|Jonathan Fuller|Barbara Crampton|Jessica Dollarhide,Stuart Gordon,Horror,5.9
+222,1995-04-07,Circle of Friends,Chris O'Donnell|Saffron Burrows|Minnie Driver|Geraldine O'Rawe,Pat O'Connor,Drama|Romance,6.6
+223,1994-11-04,Clerks,Jason Mewes|Brian O'Halloran|Jeff Anderson|Marilyn Ghigliotti,Kevin Smith,Comedy,7.8
+224,1995-04-07,Don Juan DeMarco,Johnny Depp|Marlon Brando|Faye Dunaway|Géraldine Pailhas,Jeremy Leven,Drama|Romance|Comedy,6.8
+225,1994-12-09,Disclosure,Michael Douglas|Donald Sutherland|Demi Moore|Caroline Goodall,Barry Levinson,Thriller|Drama,6.0
+227,1994-12-09,Drop Zone,Wesley Snipes|Gary Busey|Michael Jeter|Yancy Butler,John Badham,Thriller|Action,5.6
+228,1995-04-28,Destiny Turns on the Radio,James Le Gros|Dylan McDermott|Nancy Travis|Quentin Tarantino,Jack Baran,Comedy,4.4
+229,1995-01-27,Death and the Maiden,Ben Kingsley|Sigourney Weaver|Stuart Wilson|Krystia Mova,Roman Polanski,Thriller|Drama,7.3
+230,1995-03-24,Dolores Claiborne,Kathy Bates|Judy Parfitt|Christopher Plummer|Jennifer Jason Leigh,Taylor Hackford,Thriller|Drama,7.4
+231,1994-12-16,Dumb & Dumber (Dumb and Dumber),Jim Carrey|Mike Starr|Jeff Daniels|Lauren Holly, Peter Farrelly,Comedy|Adventure,7.3
+232,1994-08-03,Eat Drink Man Woman (Yin shi nan nu),Sihung Lung|Yu-Wen Wang|Chien-Lien Wu|Kuei-Mei Yang,Ang Lee,Romance|Drama|Comedy,7.8
+233,1995-03-24,Exotica,David Hemblen|Calvin Green|Don McKellar|Peter Krantz,Atom Egoyan,Drama,7.2
+234,1994-10-14,Exit to Eden,Dana Delany|Dan Aykroyd|Paul Mercurio|Rosie O'Donnell,Garry Marshall,Comedy,4.1
+235,1994-10-07,Ed Wood,Sarah Jessica Parker|Martin Landau|Johnny Depp|Patricia Arquette,Tim Burton,Comedy|Drama,7.9
+236,1995-05-05,French Kiss,Meg Ryan|Jean Reno|Timothy Hutton|Kevin Kline,Lawrence Kasdan,Romance|Comedy|Action,6.5
+237,1995-05-19,Forget Paris,Billy Crystal|Joe Mantegna|Debra Winger|Cynthia Stevenson,Billy Crystal,Comedy|Romance,6.4
+238,1995-01-13,Far From Home: The Adventures of Yellow Dog,Jesse Bradford|Mimi Rogers|Tom Bower|Bruce Davison,Phillip Borsos,Adventure|Children,6.4
+239,1995-04-07,"Goofy Movie, A",Bill Farmer|Kellie Martin|Jason Marsden|Jim Cummings,Kevin Lima,Animation|Children|Comedy|Romance,6.8
+240,1995-03-03,Hideaway,Jeff Goldblum|Alicia Silverstone|Christine Lahti|Jeremy Sisto,Brett Leonard,Thriller,5.3
+241,1995-06-02,Fluke,Samuel L. Jackson|Nancy Travis|Matthew Modine|Eric Stoltz,Carlo Carlei,Children|Drama,6.7
+242,1995-03-17,Farinelli: il castrato,Stefano Dionisi|Enrico Lo Verso|Jeroen Krabbé|Elsa Zylberstein,Gérard Corbiau,Drama|Musical,6.9
+243,1995-05-12,Gordy,Doug Stone|Deborah Hobart|Kristy Young|James Donadio,Mark Lewis,Comedy|Children|Fantasy,3.9
+244,1995-12-01,Gumby: The Movie,Dal McKennon|Manny La Carruba|Gloria Clokey|Art Clokey,Art Clokey,Animation|Children,6.2
+245,1995-06-02,The Glass Shield,Monty Bane|Thomas Babson|Richard Anderson|Erich Anderson,Charles Burnett,Crime|Drama,6.6
+246,1994-10-14,Hoop Dreams,Dick Vitale|Steve James|Arthur Agee|William Gates,Steve James,Documentary,8.3
+247,1994-10-14,Heavenly Creatures,Kate Winslet|Melanie Lynskey|Diana Kent|Sarah Peirse,Peter Jackson,Crime|Drama,7.4
+248,1995-01-06,Houseguest,Phil Hartman|Sinbad|Kim Murphy|Kim Greist,Randall Miller,Comedy,5.9
+249,1995-01-27,Immortal Beloved,Isabella Rossellini|Jeroen Krabbé|Gary Oldman|Johanna ter Steege,Bernard Rose,Drama|Romance,7.5
+250,1995-02-17,Heavyweights (Heavy Weights),David Goldman|Joseph Wayne Miller|Allen Covert|Cody Burger,Steven Brill,Children|Comedy,6.7
+251,1995-02-24,"Hunted, The",John Lone|Christopher Lambert|Yoshio Harada|Joan Chen,J. F. Lawton|J.F. Lawton,Action,5.9
+252,1994-12-25,I.Q.,Tim Robbins|Meg Ryan|Walter Matthau|Lou Jacobi,Fred Schepisi,Comedy|Romance,6.2
+253,1994-11-11,Interview with the Vampire: The Vampire Chronicles,Tom Cruise|Brad Pitt|Christian Slater|Virginia McCollam,Neil Jordan,Horror|Drama,7.6
+254,1995-03-31,Jefferson in Paris,Greta Scacchi|Gwyneth Paltrow|Thandie Newton|Nick Nolte,James Ivory,Drama,5.7
+255,1995-02-03,"Jerky Boys, The",William Hickey|Alan Arkin|Kamal Ahmed|John G. Brennan,James Melkonian,Comedy,4.5
+256,1994-11-23,Junior,Arnold Schwarzenegger|Danny DeVito|Emma Thompson|Frank Langella,Ivan Reitman,Comedy|Sci-Fi,4.5
+257,1995-02-17,Just Cause,Sean Connery|Laurence Fishburne|Blair Underwood|Kate Capshaw,Arne Glimcher,Mystery|Thriller,6.4
+258,1995-08-11,"Kid in King Arthur's Court, A",Thomas Ian Nicholas|Paloma Baeza|Joss Ackland|Art Malik,Michael Gottlieb,Adventure|Children|Romance|Comedy|Fantasy,4.8
+259,1995-04-21,Kiss of Death,Nicolas Cage|David Caruso|Helen Hunt|Samuel L. Jackson,Barbet Schroeder,Crime|Thriller|Drama,5.9
+260,1977-05-25,Star Wars: Episode IV - A New Hope,Peter Cushing|Mark Hamill|Harrison Ford|Carrie Fisher,George Lucas,Sci-Fi|Action|Adventure,8.7
+261,1994-12-25,Little Women,Gabriel Byrne|Winona Ryder|Samantha Mathis|Trini Alvarado,Gillian Armstrong,Drama,7.3
+262,1995-05-19,"Little Princess, A",Liesel Matthews|Eleanor Bron|Liam Cunningham|Rusty Schwimmer,Alfonso Cuarón,Drama|Children,7.7
+263,1995-01-01,Ladybird Ladybird,Vladimir Vega|Crissy Rock|Mauricio Venegas|Sandie Lavelle,Ken Loach,Drama,7.5
+264,1994-11-01,"Enfer, L'",Emmanuelle Béart|François Cluzet|Nathalie Cardone|André Wilms,Claude Chabrol,Drama,7.2
+265,1993-05-28,Like Water for Chocolate (Como agua para chocolate),Mario Iván Martínez|Regina Torné|Lumi Cavazos|Marco Leonardi,Alfonso Arau,Romance|Drama|Fantasy,7.2
+266,1995-01-13,Legends of the Fall,Brad Pitt|Aidan Quinn|Julia Ormond|Anthony Hopkins,Edward Zwick,Drama|Romance|War|Western,7.5
+267,1995-03-24,Major Payne,Orlando Brown|Damon Wayans|Joseph Blaire|Michael Ironside,Nick Castle,Comedy,6.1
+268,1995-05-19,Little Odessa,Tim Roth|Vanessa Redgrave|Edward Furlong|Moira Kelly,James Gray,Drama|Crime,6.8
+269,1994-07-15,My Crazy Life (Mi vida loca),Marlo Marron|Angel Aviles|Jacob Vargas|Seidy Lopez,Allison Anders,Drama,6.6
+270,1994-10-21,Love Affair,Katharine Hepburn|Annette Bening|Warren Beatty|Garry Shandling,Glenn Gordon Caron,Romance|Drama,5.9
+271,1995-03-17,Losing Isaiah,Jessica Lange|Cuba Gooding Jr.|David Strathairn|Halle Berry,Stephen Gyllenhaal,Drama,6.4
+272,1994-12-28,"Madness of King George, The",Nigel Hawthorne|Rupert Graves|Amanda Donohoe|Helen Mirren,Nicholas Hytner,Drama|Comedy,7.3
+273,1994-11-04,Mary Shelley's Frankenstein (Frankenstein),Tom Hulce|Helena Bonham Carter|Robert De Niro|Kenneth Branagh,Kenneth Branagh,Horror|Drama|Sci-Fi,6.4
+274,1995-03-03,Man of the House,Chevy Chase|George Wendt|Farrah Fawcett|Jonathan Taylor Thomas,James Orr,Comedy,4.9
+275,1994-12-21,Mixed Nuts,Anthony LaPaglia|Robert Klein|Madeline Kahn|Steve Martin,Nora Ephron,Comedy,5.3
+276,1994-08-31,Milk Money,Malcolm McDowell|Melanie Griffith|Ed Harris|Michael Patrick Carter,Richard Benjamin,Romance|Comedy,5.4
+277,1994-11-18,Miracle on 34th Street,Richard Attenborough|J.T. Walsh|Dylan McDermott|Elizabeth Perkins,Les Mayfield,Drama,6.4
+278,1995-01-27,Miami Rhapsody,Mia Farrow|Gil Bellows|Sarah Jessica Parker|Antonio Banderas,David Frankel,Comedy,5.3
+279,1995-05-03,My Family,Jimmy Smits|Edward James Olmos|Rafael Cortes|Amelia Zapata,Gregory Nava,Drama,7.3
+280,1995-01-20,Murder in the First,Christian Slater|Gary Oldman|Kevin Bacon|Embeth Davidtz,Marc Rocco,Drama|Thriller,7.3
+281,1995-01-13,Nobody's Fool,Paul Newman|Jessica Tandy|Bruce Willis|Melanie Griffith,Robert Benton,Romance|Comedy|Drama,7.4
+282,1994-12-23,Nell,Jodie Foster|Richard Libertini|Liam Neeson|Natasha Richardson,Michael Apted,Drama,6.5
+283,1995-04-19,New Jersey Drive,Shar-Ron Corley|Gwen McGee|Gabriel Casseus|Saul Stein,Nick Gomez,Crime|Drama,6.6
+285,1994-04-22,Beyond Bedlam,Keith Allen|Elizabeth Hurley|Anita Dobson|Craig Fairbrass,Vadim Jean,Drama|Horror,3.4
+287,1995-03-03,Nina Takes a Lover,Laura San Giacomo|Paul Rhys|Michael O'Keefe|Cristi Conaway,Alan Jacobs,Comedy|Romance,5.7
+288,1994-08-26,Natural Born Killers,Woody Harrelson|Tom Sizemore|Juliette Lewis|Rodney Dangerfield,Oliver Stone,Thriller|Action|Crime,7.3
+289,1994-10-07,Only You,Marisa Tomei|Bonnie Hunt|Robert Downey Jr.|Joaquim de Almeida,Norman Jewison,Comedy|Romance,6.5
+290,1995-03-03,Once Were Warriors,Mamaengaroa Kerr-Bell|Temuera Morrison|Julian Arahanga|Rena Owen,Lee Tamahori,Crime|Drama,8.0
+291,1996-01-16,Poison Ivy II,Belinda Bauer|Xander Berkeley|Johnathon Schaech|Alyssa Milano,Anne Goursaud,Thriller|Drama,4.4
+292,1995-03-10,Outbreak,Dustin Hoffman|Rene Russo|Morgan Freeman|Kevin Spacey,Wolfgang Petersen,Thriller|Drama|Sci-Fi|Action,6.6
+293,1994-11-18,Léon: The Professional (a.k.a. The Professional) (Léon),Jean Reno|Gary Oldman|Natalie Portman|Danny Aiello,Luc Besson,Crime|Drama|Action|Thriller,8.6
+294,1995-05-12,"Perez Family, The",Marisa Tomei|Anjelica Huston|Alfred Molina|Chazz Palminteri,Mira Nair,Comedy|Romance,6.1
+295,1995-04-28,"Pyromaniac's Love Story, A",Sadie Frost|William Baldwin|Erika Eleniak|John Leguizamo,Joshua Brand,Comedy|Romance,5.4
+296,1994-10-14,Pulp Fiction,Tim Roth|John Travolta|Laura Lovelace|Samuel L. Jackson,Quentin Tarantino,Drama|Crime|Comedy|Thriller,8.9
+299,1995-03-24,Priest,Tom Wilkinson|Robert Carlyle|Cathy Tyson|Linus Roache,Antonia Bird,Drama,7.2
+300,1994-10-07,Quiz Show,John Turturro|Paul Scofield|Ralph Fiennes|Rob Morrow,Robert Redford,Drama,7.5
+301,1995-05-05,Picture Bride (Bijo photo),Youki Kudoh|Akira Takayama|Cary-Hiroyuki Tagawa|Tamlyn Tomita,Kayo Hatta,Drama|Romance,6.8
+302,1994-12-09,"Queen Margot (Reine Margot, La)",Jean-Hugues Anglade|Isabelle Adjani|Vincent Perez|Daniel Auteuil,Patrice Chéreau,Drama|Romance,7.5
+303,1995-02-10,"Quick and the Dead, The",Sharon Stone|Russell Crowe|Gene Hackman|Leonardo DiCaprio,Sam Raimi,Western|Thriller|Action,6.4
+304,1995-03-03,Roommates,Peter Falk|D.B. Sweeney|Julianne Moore|Ellen Burstyn,Peter Yates,Drama|Comedy,6.5
+305,1994-12-25,Ready to Wear (Pret-A-Porter),Sophia Loren|Jean-Pierre Cassel|Kim Basinger|Marcello Mastroianni,Robert Altman,Comedy,5.0
+306,1994-11-23,Three Colors: Red (Trois couleurs: Rouge),Irène Jacob|Jean-Pierre Lorit|Frédérique Feder|Jean-Louis Trintignant,Krzysztof Kieślowski,Drama,8.1
+307,1993-09-08,Three Colors: Blue (Trois couleurs: Bleu),Juliette Binoche|Florence Pernel|Benoît Régent|Charlotte Véry,Krzysztof Kieślowski,Drama,8.0
+308,1994-06-10,Three Colors: White (Trzy kolory: Bialy),Jerzy Stuhr|Janusz Gajos|Julie Delpy|Zbigniew Zamachowski,Krzysztof Kieślowski,Drama|Comedy,7.7
+309,1995-06-02,"Red Firecracker, Green Firecracker (Pao Da Shuang Deng)",Ning Jing|Wu Gang,He Ping,Drama,6.9
+312,1995-04-12,Stuart Saves His Family,Laura San Giacomo|Vincent D'Onofrio|Shirley Knight|Al Franken,Harold Ramis,Comedy,5.3
+313,1994-11-18,"Swan Princess, The",Jack Palance|Howard McGillin|Michelle Nicastro|Liz Callaway,Richard Rich,Children|Animation,6.4
+314,1995-02-03,"Secret of Roan Inish, The",Pat Slowey|Dave Duffy|Declan Hannigan|Jeni Courtney,John Sayles,Mystery|Fantasy|Drama|Children,7.5
+315,1994-10-07,"Specialist, The",Sylvester Stallone|James Woods|Sharon Stone|Rod Steiger,Luis Llosa,Action|Thriller|Drama,5.4
+316,1994-10-28,Stargate,Kurt Russell|Jaye Davidson|James Spader|Viveca Lindfors,Roland Emmerich,Adventure|Action|Sci-Fi,7.0
+317,1994-11-11,"Santa Clause, The",Tim Allen|Wendy Crewson|Judge Reinhold|Eric Lloyd,John Pasquin,Comedy|Fantasy|Drama,6.4
+318,1994-10-14,"Shawshank Redemption, The",Tim Robbins|William Sadler|Bob Gunton|Morgan Freeman,Frank Darabont,Drama|Crime,9.3
+319,1995-02-10,Shallow Grave,Christopher Eccleston|Ewan McGregor|Ken Stott|Kerry Fox,Danny Boyle,Thriller|Comedy|Drama,7.4
+320,1994-08-24,Suture,Dennis Haysbert|Mel Harris|Sab Shimono|Dina Merrill,David Siegel|Scott McGehee,Film-Noir|Thriller,6.7
+321,1995-01-20,Strawberry and Chocolate (Fresa y chocolate),Jorge Perugorría|Francisco Gattorno|Vladimir Cruz|Mirta Ibarra,Juan Carlos Tabío|Tomás Gutiérrez Alea,Drama,7.4
+322,1995-04-21,Swimming with Sharks,Kevin Spacey|Frank Whaley|Benicio Del Toro|Michelle Forbes,George Huang,Drama|Comedy,7.1
+324,1995-03-08,"Sum of Us, The",Jack Thompson|Russell Crowe|John Polson|Deborah Kennedy, Kevin Dowling|Geoff Burton,Drama|Comedy,7.4
+325,1995-09-08,National Lampoon's Senior Trip,Matt Frewer|Tommy Chong|Valerie Mahaffey|Lawrence Dane,Kelly Makin,Comedy,5.5
+326,1994-12-16,To Live (Huozhe),Jiang Wu|Ge You|Gong Li|Ben Niu,Yimou Zhang,Drama,8.3
+327,1995-03-31,Tank Girl,Lori Petty|Don Harvey|Naomi Watts|Ice-T,Rachel Talalay,Comedy|Action|Sci-Fi,5.2
+328,1995-01-13,Tales from the Crypt Presents: Demon Knight,John Kassir|Jada Pinkett Smith|William Sadler|Billy Zane,Ernest R. Dickerson,Thriller|Horror,6.7
+329,1994-11-18,Star Trek: Generations,Patrick Stewart|Brent Spiner|Jonathan Frakes|LeVar Burton,David Carson,Drama|Sci-Fi|Adventure,6.6
+330,1995-05-24,Tales from the Hood,Samuel Monroe Jr.|De'aundre Bonds|Joe Torry|Clarence Williams III,Rusty Cundieff,Action|Crime|Horror,6.1
+331,1994-12-02,Tom & Viv,Willem Dafoe|Miranda Richardson|Tim Dutton|Rosemary Harris,Brian Gilbert,Drama,6.5
+332,1995-04-28,Village of the Damned,Christopher Reeve|Michael Paré|Kirstie Alley|Linda Kozlowski,John Carpenter,Horror|Sci-Fi,5.6
+333,1995-03-31,Tommy Boy,Chris Farley|Bo Derek|David Spade|Brian Dennehy,Peter Segal,Comedy,7.0
